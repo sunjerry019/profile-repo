@@ -25,9 +25,7 @@
 					<span id="small_expertise"><?php echo $strings[$lang]["small_expertise"] ?></span>
 				</div>
 				<div id="languages" class="force-en-font">
-					<a href="?hl=en">EN</a>
-					<a href="?hl=de">DE</a>
-					<a href="?hl=zh">ZH</a>
+					<a href="?hl=en">EN</a><a href="?hl=de">DE</a><a href="?hl=zh">ZH</a>
 				</div>
 				<div id="linkbuttons">
 					<a href="./ptg/" title="<?php echo $strings[$lang]['ptg'] ?>"><i class="fas fa-camera"></i></a>

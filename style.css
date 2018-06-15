@@ -28,7 +28,6 @@ body
 	/* padding-top: 20px;
 	padding-bottom: 20px;*/
 	color: white;
-	position: fixed;
 
 	-webkit-transition: all 500ms cubic-bezier(0.86, 0, 0.07, 1);
   	transition:         all 500ms cubic-bezier(0.86, 0, 0.07, 1);
@@ -57,13 +56,6 @@ body
 	text-decoration: none;
 }
 
-#header #languages a:hover
-{
-	background-color: white;
-	color: #454545;
-	border-radius: 50%
-}
-
 
 /* SMALL HEADER */
 #header .center.small
@@ -85,8 +77,9 @@ body
 #header .center.small #name { font-size: 1.5em; }
 #header .center.small #small_expertise { font-size: 0.8em; }
 
-#header .center.small #languages { order: 1; text-align: right; }
-#header .center.small #languages a {padding: 10px;}
+#header .center.small #languages { order: 1; text-align: right;}
+#header .center.small #languages a { display: block; margin-left: 10px; }
+#header .center.small #languages a:hover {background-color: none;}
 
 /* Link Buttons */
 #linkbuttons
@@ -166,6 +159,7 @@ body
 #header.full
 {
 	height: 100%;
+	position: fixed;
 }
 	#header .center.big
 	{
@@ -205,6 +199,12 @@ body
 		width: auto;
 		padding: 2.5px 5px;
 		transition: ease 0.1s;
+	}
+	#header.full #languages a:hover
+	{
+		background-color: white;
+		color: #454545;
+		border-radius: 50%
 	}
 
 	/* Photo */
