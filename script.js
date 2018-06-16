@@ -31,24 +31,24 @@ var transitionEvent = whichTransitionEvent();
 var expanded = false;
 
 $(document).ready(function(){
-	$("#header .center").addClass("loaded");
+    $("#header .center").addClass("loaded");
 
     if(urlget.para("expand") == true) toggleHeader(true); // so that "0" will be evaluated as false
     else if(history.state && "expanded" in history.state && history.state["expanded"]) toggleHeader(true);
 
-	$("#linkbtn_expand").click(function(e){
-		e.preventDefault();
-		e.stopPropagation();
-		toggleHeader();
-	});
+    $("#linkbtn_expand").click(function(e){
+        e.preventDefault();
+        e.stopPropagation();
+        toggleHeader();
+    });
 
     $("#languages a").click(function(e){
-		e.preventDefault();
-		e.stopPropagation();
+        e.preventDefault();
+        e.stopPropagation();
 
         var lang = $(this).attr("href").substr(1);
         window.location.href = urlget.update(lang);
-	});
+    });
 
 });
 
@@ -182,25 +182,25 @@ function toggleHeader(override)
     curHeight = el.height(),
     autoHeight = el.css('height', 'auto').height();
 el.height(curHeight).removeClass("full").animate({height: autoHeight}, 1000, function(){
-	$(this).delay(10000).promise().done(function(){
-    	$("#header").height('auto');
+    $(this).delay(10000).promise().done(function(){
+        $("#header").height('auto');
     })
 });*/
 
 
 /*$("#header").one(transitionEvent, function(e){
-	if(hchange)
-	{
-		console.log("transitionEnded");
-		$(this).height("auto");
-	}
-	e.stopPropagation();
-});	*/
+    if(hchange)
+    {
+        console.log("transitionEnded");
+        $(this).height("auto");
+    }
+    e.stopPropagation();
+}); */
 
 /* $('#header').height($('#header').height()).removeClass("full").animate({
     height: $('#header').get(0).scrollHeight
 }, 500, function(){
-	console.log("Done");
+    console.log("Done");
 
 });
 // $("#header").height("");*/
