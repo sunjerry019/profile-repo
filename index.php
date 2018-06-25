@@ -2,7 +2,7 @@
 <?php require 'strings.php' ?>
 <!DOCTYPE HTML>
 
-<html>
+<html <?php if($lang == "zh"){ echo "class='hl_zh'"; } ?> >
     <head>
         <title>Sun Yudong</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -34,6 +34,138 @@
                         <i class="fas fa-chevron-down"></i>
                     </a>
                     <a href="//github.com/sunjerry019" title="<?php echo $strings[$lang]['github'] ?>"><i class="fab fa-github-alt"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="body">
+            <div id="personal_info" class="bulk">
+                <h2><?php echo $strings[$lang]["personal_info"] ?></h2>
+                <div class="content">
+                    <table>
+                        <tr>
+                            <td><?php echo $strings[$lang]["name_label"] ?></td>
+                            <td><?php echo $strings[$lang]["name_2"] ?></td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $strings[$lang]["dob_label"] ?></td>
+                            <td><?php echo $strings[$lang]["dob"] ?>
+                                <span id="dob_place"><?php echo $strings[$lang]["dob_place"] ?></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $strings[$lang]["nationality_label"] ?></td>
+                            <td><?php echo $strings[$lang]["nationality"] ?></td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $strings[$lang]["email_label"] ?></td>
+                            <td><?php echo $strings[$lang]["email"] ?></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id="personal_info" class="bulk">
+                <h2><?php echo $strings[$lang]["personal_info"] ?></h2>
+                <div class="content">
+                    <table>
+                        <tr>
+                            <td><?php echo $strings[$lang]["name_label"] ?></td>
+                            <td><?php echo $strings[$lang]["name_2"] ?></td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $strings[$lang]["dob_label"] ?></td>
+                            <td><?php echo $strings[$lang]["dob"] ?>
+                                <span id="dob_place"><?php echo $strings[$lang]["dob_place"] ?></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $strings[$lang]["nationality_label"] ?></td>
+                            <td><?php echo $strings[$lang]["nationality"] ?></td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $strings[$lang]["email_label"] ?></td>
+                            <td><?php echo $strings[$lang]["email"] ?></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id="personal_info" class="bulk">
+                <h2><?php echo $strings[$lang]["personal_info"] ?></h2>
+                <div class="content">
+                    <table>
+                        <tr>
+                            <td><?php echo $strings[$lang]["name_label"] ?></td>
+                            <td><?php echo $strings[$lang]["name_2"] ?></td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $strings[$lang]["dob_label"] ?></td>
+                            <td><?php echo $strings[$lang]["dob"] ?>
+                                <span id="dob_place"><?php echo $strings[$lang]["dob_place"] ?></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $strings[$lang]["nationality_label"] ?></td>
+                            <td><?php echo $strings[$lang]["nationality"] ?></td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $strings[$lang]["email_label"] ?></td>
+                            <td><?php echo $strings[$lang]["email"] ?></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id="personal_info" class="bulk">
+                <h2><?php echo $strings[$lang]["personal_info"] ?></h2>
+                <div class="content">
+                    <table>
+                        <tr>
+                            <td><?php echo $strings[$lang]["name_label"] ?></td>
+                            <td><?php echo $strings[$lang]["name_2"] ?></td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $strings[$lang]["dob_label"] ?></td>
+                            <td><?php echo $strings[$lang]["dob"] ?>
+                                <span id="dob_place"><?php echo $strings[$lang]["dob_place"] ?></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $strings[$lang]["nationality_label"] ?></td>
+                            <td><?php echo $strings[$lang]["nationality"] ?></td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $strings[$lang]["email_label"] ?></td>
+                            <td><?php echo $strings[$lang]["email"] ?></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div id="personal_info" class="bulk">
+                <h2><?php echo $strings[$lang]["personal_info"] ?></h2>
+                <div class="content">
+                    <table>
+                        <tr>
+                            <td><?php echo $strings[$lang]["name_label"] ?></td>
+                            <td><?php echo $strings[$lang]["name_2"] ?></td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $strings[$lang]["dob_label"] ?></td>
+                            <td><?php echo $strings[$lang]["dob"] ?>
+                                <span id="dob_place"><?php echo $strings[$lang]["dob_place"] ?></span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $strings[$lang]["nationality_label"] ?></td>
+                            <td><?php echo $strings[$lang]["nationality"] ?></td>
+                        </tr>
+                        <tr>
+                            <td><?php echo $strings[$lang]["email_label"] ?></td>
+                            <td><?php echo $strings[$lang]["email"] ?></td>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
