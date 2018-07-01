@@ -5,9 +5,16 @@
 <html <?php if($lang == "zh"){ echo "class='hl_zh'"; } ?> >
     <head>
         <title>Sun Yudong</title>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <link href="//fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro" rel="stylesheet">
+        <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css" type="text/css"/>
-        <?php if($lang == "zh"){ echo "<style>body{ font-family: 'Yu Gothic' }</style>"; } ?>
+        <?php 
+        if($lang == "zh")
+        { 
+            echo '<link rel="stylesheet" href="//fonts.googleapis.com/earlyaccess/notosansscsliced.css" type="text/css"/>'; 
+            echo "<style> body { font-family: 'Noto Sans SC Sliced', 'Yu Gothic', sans-serif; } </style>";
+        } 
+        ?>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="script.js"></script>
     </head>
@@ -64,7 +71,13 @@
                     </table>
                 </div>
             </div>
-
+            
+            <div id="skills_and_abilities" class="bulk">
+                <h2><?php echo $strings[$lang]["sk_and_ab"] ?></h2>
+                <div class="content">
+                    
+                </div>
+            </div>
             <!-- next section goes here -->
         </div>
     </body>

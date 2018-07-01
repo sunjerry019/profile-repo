@@ -2,7 +2,11 @@
 body            { font-family: "Source Sans Pro"; margin: 0px; }
 .center         { display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; }
 .force-en-font  { font-family: "Source Sans Pro"; }
-.mono           { font-family: "Roboto Mono"; font-size-adjust: 0.45; }
+.mono           { font-family: "Roboto Mono"; font-size: smaller; /* font-size-adjust: 0.45; */ }
+
+a[href^="mailto:"]:link, a[href^="mailto:"]:visited { color: #09c; text-decoration: none;}
+a[href^="mailto:"]:hover { color: #006080; }
+a[href^="mailto:"]:active { color: #06c; }
 
 /* Header */
 #header
@@ -110,9 +114,9 @@ body            { font-family: "Source Sans Pro"; margin: 0px; }
 #body table tr td                           { outline: none; }
 #body table tr td:nth-child(2n-1)           { font-weight: 300; padding-right: 2em; vertical-align: text-top;}
 .hl_zh #body table tr td:nth-child(2n-1)    { font-weight: 700; }
-#body .bulk { margin: 0px 10px; }
+#body .bulk { margin: 0px 20px; }
 
-#body #personal_info #dob_place { display: block; font-size-adjust: 0.4;}
+#body #personal_info #dob_place { display: block; font-size-adjust: 0.4; }
 
 /* Themeing */
-
+#body #skills_and_abilities h2 { border-left-color: #90c; }

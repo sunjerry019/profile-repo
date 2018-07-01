@@ -42,7 +42,9 @@
         "nationality_label" => "Nationality",
         "nationality"       => "Singapore",
         "email_label"       => "E-Mail Address",
-        "email"             => "<span class='mono'>yudongsun019 [at] gmail [dot] com</span>"
+        "email"             => "<span class='mono'><a href='mailto:yudongsun019@gmail.com'>yudongsun019@gmail.com</a></span>",
+      
+        "sk_and_ab"         => "Skills and Abilities"
     );
 
     $de = array(
@@ -62,7 +64,9 @@
         "nationality_label" => "Nationalität",
         "nationality"       => "Singapur",
         "email_label"       => "E-Mail-Adresse",
-        "email"             => "<span class='mono'>yudongsun019 [at] gmail [dot] com</span>"
+        "email"             => $en["email"],
+        
+        "sk_and_ab"         => "Qualifikationen und Fähigkeiten"
     );
 
     $zh = array(
@@ -70,7 +74,7 @@
         "expertise"         => "工程师, 物理学家",
         "small_expertise"   => "语言、摄影爱好者",
         "ptg"               => "我拍的一些照片",
-        "about_me"          => "我的履历",
+        "about_me"          => "我的简历",
         "github"            => "我的GitHub页面",
 
         "personal_info"     => "个人信息",
@@ -79,10 +83,12 @@
         "dob_label"         => "出生",
         "dob"               => "<span class='mono'>29/07/1998</span>",
         "dob_place"         => "中国，上海",
-        "nationality_label" => "国际",
+        "nationality_label" => "国籍",
         "nationality"       => "新加坡",
-        "email_label"       => "电邮",
-        "email"             => "<span class='mono'>yudongsun019 [at] gmail [dot] com</span>"
+        "email_label"       => "邮箱",
+        "email"             => $en["email"],
+        
+        "sk_and_ab"         => "个人技能与能力"
     );
 
     $strings = array(
