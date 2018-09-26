@@ -103,11 +103,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1"
-     inkscape:cx="248.7395"
-     inkscape:cy="484.17729"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="332.19856"
+     inkscape:cy="162.86007"
      inkscape:document-units="mm"
-     inkscape:current-layer="layer8"
+     inkscape:current-layer="layer10"
      showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1020"
@@ -221,7 +221,7 @@
            id="g1652"
            transform="translate(0,-10.054167)">
           <flowRoot
-             transform="matrix(0.17601832,0,0,0.17601832,-2.9851267,169.95746)"
+             transform="matrix(0.17601832,0,0,0.17601832,-2.9851267,165.19493)"
              style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:28.05894852px;line-height:25px;font-family:'Proxima Nova';-inkscape-font-specification:'Proxima Nova, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#739d0f;fill-opacity:0.94117647;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              id="flowRoot4376"
              xml:space="preserve"><flowRegion
@@ -236,7 +236,7 @@
                id="flowPara4374"
                style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:28.05894852px;font-family:'Proxima Nova';-inkscape-font-specification:'Proxima Nova, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ff6500;fill-opacity:1">Engagements</flowPara></flowRoot>          <g
              id="g1465"
-             transform="translate(0,6.4286196)">
+             transform="translate(0,6.2810087)">
             <flowRoot
                xml:space="preserve"
                id="flowRoot4498"
@@ -276,7 +276,7 @@
                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.04631615px;font-family:'Proxima Nova';-inkscape-font-specification:'Proxima Nova, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#280000;fill-opacity:0.74901961" /></flowRoot>          </g>
           <g
              id="g1475"
-             transform="translate(0,-9.4716228)">
+             transform="translate(0,-14.086514)">
             <flowRoot
                xml:space="preserve"
                id="flowRoot4516"
@@ -299,16 +299,18 @@
                  id="flowRegion4520"
                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.04631615px;font-family:'Proxima Nova';-inkscape-font-specification:'Proxima Nova, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1"><rect
                    id="rect4518"
-                   width="363.41055"
-                   height="37.083248"
+                   width="370.17477"
+                   height="64.891655"
                    x="51.51778"
                    y="250.75804"
                    style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.04631615px;font-family:'Proxima Nova';-inkscape-font-specification:'Proxima Nova, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1" /></flowRegion><flowPara
                  style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.04631615px;font-family:'Proxima Nova';-inkscape-font-specification:'Proxima Nova, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1"
-                 id="flowPara4522">NSF (Army / 35SCE)</flowPara></flowRoot>          </g>
+                 id="flowPara4522">NSF (Army / 35SCE)</flowPara><flowPara
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.04210663px;font-family:'Proxima Nova';-inkscape-font-specification:'Proxima Nova, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#777777;fill-opacity:1"
+                 id="flowPara1423">Clerk/Logistician</flowPara></flowRoot>          </g>
           <g
              id="g1486"
-             transform="translate(0,-25.234648)">
+             transform="translate(0,-29.99715)">
             <flowRoot
                xml:space="preserve"
                id="flowRoot4534"
@@ -388,7 +390,7 @@
        style="display:inline">
       <g
          id="g1614"
-         transform="translate(-1.0463192,0.77723122)">
+         transform="translate(-1.0463192,-1.6040308)">
         <flowRoot
            transform="matrix(0.17601832,0,0,0.17601832,-2.9851292,125.48189)"
            style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:28.05894852px;line-height:25px;font-family:'Proxima Nova';-inkscape-font-specification:'Proxima Nova, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#739d0f;fill-opacity:0.94117647;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -671,7 +673,7 @@
        inkscape:label="Education">
       <g
          id="g1718"
-         transform="translate(-1.0463192)">
+         transform="translate(-1.0463192,7.6217098e-6)">
         <flowRoot
            transform="matrix(0.17601832,0,0,0.17601832,-2.9851292,16.234632)"
            style="font-style:normal;font-variant:normal;font-weight:800;font-stretch:normal;font-size:28.05894852px;line-height:25px;font-family:'Proxima Nova';-inkscape-font-specification:'Proxima Nova, Ultra-Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
