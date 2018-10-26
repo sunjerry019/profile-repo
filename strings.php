@@ -42,7 +42,7 @@
         "nationality_label" => "Nationality",
         "nationality"       => "Singapore",
         "email_label"       => "E-Mail Address",
-        "email"             => "<span class='mono'><a href='mailto:yudongsun019@gmail.com'>yudongsun019@gmail.com</a></span>",
+        "email"             => "<span class='mono'><a href='#'>yudongsun019 <it>(at)</it> gmail <it>(dot)</it> com</a></span>",
       
         "sk_and_ab"         => "Skills and Abilities"
     );
