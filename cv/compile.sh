@@ -1,12 +1,14 @@
 #!/bin/bash
 
-FILE="cv"
+FILE="Google"
+TYPE="resume" # or "cv"
 
 svgtopdf "$FILE.svg"
+# svglinkify "$FILE.svg" "$FILE.pdf"
 pdftk "$FILE.pdf" dump_data output dump.txt
 
 head -n 1 dump.txt > dump.2.txt
-cat metadata.txt | tee -a dump.2.txt 
+cat meta-$TYPE.txt | tee -a dump.2.txt 
 tail -n +2 dump.txt | tee -a dump.2.txt
 
 pdftk "$FILE.pdf" update_info dump.2.txt output "$FILE.copy.pdf"
