@@ -1,0 +1,183 @@
+%% Creator: Inkscape inkscape 0.92.4, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Google.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{595.27559055bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.41428571)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Google.pdf}}%
+    \put(0.0231843,0.26123208){\color[rgb]{0.45098039,0.61568627,0.05882353}\transparent{0.94117647}\makebox(0,0)[lt]{\begin{minipage}{0.43964199\unitlength}\raggedright \textbf{Engagements}\end{minipage}}}%
+    \put(0.02389823,0.13527848){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2017/01 - /02\end{minipage}}}%
+    \put(0.20712135,0.13561348){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30282259\unitlength}\raggedright Teaching Intern (Physics / Maths) \\ at Queensway Secondary School\\ \end{minipage}}}%
+    \put(0.02389823,0.1700538){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2017/02 - Now \end{minipage}}}%
+    \put(0.20627132,0.1703888){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30460437\unitlength}\raggedright NSF (Army / 35SCE)\end{minipage}}}%
+    \put(0.02389823,0.22539898){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2018/02 - Now\end{minipage}}}%
+    \put(0.20701048,0.22573398){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30090105\unitlength}\raggedright SJPO Alumni Trainer \\ at Hwa Chong Institution\end{minipage}}}%
+    \put(0.02389823,0.0800996){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2015/02 - 2016/06\end{minipage}}}%
+    \put(0.20712135,0.0804346){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30282259\unitlength}\raggedright Coding4Children \\ at Ulu Pandan Stars (UP Stars)\\ \end{minipage}}}%
+    \put(0.02398393,0.56428278){\color[rgb]{0.45098039,0.61568627,0.05882353}\transparent{0.94117647}\makebox(0,0)[lt]{\begin{minipage}{0.37412614\unitlength}\raggedright \textbf{Co-Curricular Activities}\end{minipage}}}%
+    \put(0.02469782,0.52733368){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2011 - 2016\end{minipage}}}%
+    \put(0.16509108,0.52766868){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.28233191\unitlength}\raggedright Electronics and Computer Club\end{minipage}}}%
+    \put(0.03913871,0.5018443){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.30460437\unitlength}\raggedright Vice - Chairman\end{minipage}}}%
+    \put(0.37404318,0.50192497){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2013 - 2014\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Google.pdf}}%
+    \put(0.02469782,0.42007232){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2015 - 2016\end{minipage}}}%
+    \put(0.16509108,0.42040732){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30460437\unitlength}\raggedright Science Students' Research Council\end{minipage}}}%
+    \put(0.03786367,0.3661878){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.35805827\unitlength}\raggedright Physics Interest Group (Main Commitee)\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Google.pdf}}%
+    \put(0.03832564,0.34203623){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.54065945\unitlength}\raggedright International Science Youth Forum (ISYF) \end{minipage}}}%
+    \put(0.29697673,0.31723022){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.42474681\unitlength}\raggedright Media and Publicity I/C\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Google.pdf}}%
+    \put(0.22704632,0.34172232){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedleft 2016\end{minipage}}}%
+    \put(0.03786367,0.39028637){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.42474681\unitlength}\raggedright Council Publicity I/C\end{minipage}}}%
+    \put(0.22704632,0.38843608){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedleft 2016\end{minipage}}}%
+    \put(0.02469782,0.45969314){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2014 - 2016\end{minipage}}}%
+    \put(0.16509108,0.46002814){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30460437\unitlength}\raggedright Photonics Interest Group\end{minipage}}}%
+    \put(0.02398393,1.12679687){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright \textbf{Education}\end{minipage}}}%
+    \put(0.02469782,0.62120079){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2005 - 2010\end{minipage}}}%
+    \put(0.15249186,0.6215358){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright Nan Hua Primary School\end{minipage}}}%
+    \put(0.02469782,1.09707278){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2015 - 2016\end{minipage}}}%
+    \put(0.1524918,1.09740779){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31732283\unitlength}\raggedright Hwa Chong Institution \\ (Junior College)\\ \end{minipage}}}%
+    \put(0.03863474,1.04280905){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.34882085\unitlength}\raggedright Gifted and Talented Education Programme\end{minipage}}}%
+    \put(0.03863474,1.02214296){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.32614226\unitlength}\raggedright Specialisation in Physics and Maths\end{minipage}}}%
+    \put(0.37409364,1.02157564){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2015 - 2016\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Google.pdf}}%
+    \put(0.03863474,0.9794888){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.39622067\unitlength}\raggedright Singapore - Cambridge GCE A Levels \end{minipage}}}%
+    \put(0.03863474,0.90521682){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.47046781\unitlength}\raggedright \textit{Hwa Chong Diploma with Distinction}\end{minipage}}}%
+    \put(0.03863474,0.94906772){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.416123\unitlength}\raggedright \textit{H2 Physics, Chemistry, Mathematics, German}\textit{\\ }\textit{H3 Linear Algebra [NUS] }\end{minipage}}}%
+    \put(0.07717669,0.94858696){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.39622067\unitlength}\raggedleft \textit{4 × A's}\end{minipage}}}%
+    \put(0.07767882,0.92716344){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.39622067\unitlength}\raggedleft \textit{Distinction}\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Google.pdf}}%
+    \put(0.02469782,0.8516108){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2011 - 2014\end{minipage}}}%
+    \put(0.15249186,0.85194581){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.32866211\unitlength}\raggedright Hwa Chong Institution \\ (High School / IP)\end{minipage}}}%
+    \put(0.03863474,0.74458399){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.32614226\unitlength}\raggedright Science and Math Talent Programme\end{minipage}}}%
+    \put(0.03863474,0.72391789){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.32614226\unitlength}\raggedright Specialisation in Physics and Biology\end{minipage}}}%
+    \put(0.37409364,0.7230119){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2013 - 2014\end{minipage}}}%
+    \put(-0.0008108,0.67443336){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.47464977\unitlength}\raggedleft \textit{Academic Mean Subject Grade = 1.27}\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{Google.pdf}}%
+    \put(0.00410034,0.69619962){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.47046781\unitlength}\raggedleft \textit{Outstanding Student Award Recipient}\end{minipage}}}%
+    \put(0.03840543,0.79844668){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.32614226\unitlength}\raggedright German as a Third Language\end{minipage}}}%
+    \put(0.37409364,0.79754069){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2011 - 2014\end{minipage}}}%
+    \put(0.00224129,0.77387823){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.47046781\unitlength}\raggedleft \textit{2nd in National Cohort}\end{minipage}}}%
+    \put(0.51661288,1.12679695){\color[rgb]{0.61568627,0,0.49803922}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright \textbf{Skills and Abilities}\textbf{\\ }\end{minipage}}}%
+    \put(0.51578635,1.09405113){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright \textbf{Languages}\end{minipage}}}%
+    \put(0.51578635,0.96301895){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright \textbf{Skills}\end{minipage}}}%
+    \put(0.51595272,1.06310632){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.27693225\unitlength}\raggedright \textbf{English}\end{minipage}}}%
+    \put(0.51690804,1.03819611){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39436335\unitlength}\raggedright Excellent \\ Written and Spoken\end{minipage}}}%
+    \put(0.67020107,1.06131387){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.27693225\unitlength}\raggedright \textbf{Chinese}\end{minipage}}}%
+    \put(0.67071006,1.03811296){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39436335\unitlength}\raggedright Good \\ Written and Spoken\end{minipage}}}%
+    \put(0.82400313,1.06131387){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.27693225\unitlength}\raggedright \textbf{German}\end{minipage}}}%
+    \put(0.82451212,1.03824755){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39436335\unitlength}\raggedright Good \\ Written and Spoken\\ TestDaF (TDN 4/5/4/4)\end{minipage}}}%
+    \put(0.57806399,0.47285445){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39436335\unitlength}\raggedright \end{minipage}}}%
+    \put(0.63133121,0.44039937){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34285869\unitlength}\raggedright Photography, Video Editing\end{minipage}}}%
+    \put(0.51637769,0.44039937){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright \textbf{Others}\end{minipage}}}%
+    \put(0.63214433,0.85348864){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.3442574\unitlength}\raggedright *NIX Sys Administration and Automation\end{minipage}}}%
+    \put(0.63035819,0.83170153){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.33984768\unitlength}\raggedleft \textit{shell scripting; server deployment}\end{minipage}}}%
+    \put(0.63133124,0.72621206){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.44442107\unitlength}\raggedright Python, C++\end{minipage}}}%
+    \put(0.63472353,0.70235842){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.33216788\unitlength}\raggedleft incl. data-processing purposes used in conjuction with software such as gnuplot.\end{minipage}}}%
+    \put(0.52591833,0.934732){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.27693225\unitlength}\raggedright \textbf{Proficient}\end{minipage}}}%
+    \put(0.52687365,0.90982179){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39436335\unitlength}\raggedright \end{minipage}}}%
+    \put(0.63133126,0.64610858){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34285869\unitlength}\raggedright Document processing with LaTeX\end{minipage}}}%
+    \put(0.63133126,0.76155275){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34285869\unitlength}\raggedright Data Analysis\end{minipage}}}%
+    \put(0.63183016,0.79669011){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34285869\unitlength}\raggedright Git Distributed Version Control System\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{Google.pdf}}%
+    \put(0.63133126,0.93471383){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.3442574\unitlength}\raggedright Web Design + Full Stack Development\end{minipage}}}%
+    \put(0.7914023,0.90962305){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34285869\unitlength}\raggedright JavaScript, HTML/CSS\\ \end{minipage}}}%
+    \put(0.65442535,0.90962305){\color[rgb]{0.43529412,0.43529412,0.43529412}\makebox(0,0)[lt]{\begin{minipage}{0.34285869\unitlength}\raggedright Frontend: \end{minipage}}}%
+    \put(0.65392311,0.88542924){\color[rgb]{0.43529412,0.43529412,0.43529412}\makebox(0,0)[lt]{\begin{minipage}{0.34285869\unitlength}\raggedright Backend:\end{minipage}}}%
+    \put(0.92412221,0.88542924){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34285869\unitlength}\raggedright LAMP\end{minipage}}}%
+    \put(0.5263803,0.60312092){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.27693225\unitlength}\raggedright \textbf{Basic}\end{minipage}}}%
+    \put(0.56781454,0.43457972){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39436335\unitlength}\raggedright \end{minipage}}}%
+    \put(0.63183015,0.60293602){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.44442107\unitlength}\raggedright C\#, VBA and MATLAB\end{minipage}}}%
+    \put(0.63183015,0.52256192){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.44709375\unitlength}\raggedright Computer security\end{minipage}}}%
+    \put(0.63183015,0.57278031){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.44709375\unitlength}\raggedright Competitive programming\end{minipage}}}%
+    \put(0.6417011,0.55366341){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.33216788\unitlength}\raggedleft incl. data structures and algorithms\end{minipage}}}%
+    \put(0.63183015,0.49113121){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.44709375\unitlength}\raggedright Signal processing\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{Google.pdf}}%
+    \put(0.51661288,0.38819105){\color[rgb]{0.61568627,0,0.14509804}\makebox(0,0)[lt]{\begin{minipage}{0.45890075\unitlength}\raggedright \textbf{Relevant Experiences and Achievements}\end{minipage}}}%
+    \put(0.57652278,0.2642428){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31732283\unitlength}\raggedright \textbf{Contests and Competitions}\end{minipage}}}%
+    \put(0.51678635,0.23548412){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2016\end{minipage}}}%
+    \put(0.57704021,0.23589536){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31732283\unitlength}\raggedright Euclid Math Contest\end{minipage}}}%
+    \put(0.65892321,0.23589536){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.31732283\unitlength}\raggedleft Distinction\end{minipage}}}%
+    \put(0.51678635,0.20340331){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2016\end{minipage}}}%
+    \put(0.57704021,0.20381455){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31732283\unitlength}\raggedright National Olympiad in Informatics\end{minipage}}}%
+    \put(0.65892321,0.20381455){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.31732283\unitlength}\raggedleft Bronze\end{minipage}}}%
+    \put(0.51678635,0.16812567){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2015\end{minipage}}}%
+    \put(0.57704021,0.16853691){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31732283\unitlength}\raggedright Manpower Hackathon\end{minipage}}}%
+    \put(0.65892321,0.16853691){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.31732283\unitlength}\raggedleft Best Design\end{minipage}}}%
+    \put(0.51678635,0.13264476){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2014\end{minipage}}}%
+    \put(0.57704021,0.13305599){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31732283\unitlength}\raggedright Singapore Games Creation Competition\end{minipage}}}%
+    \put(0.65892321,0.13305599){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.31732283\unitlength}\raggedleft 2nd Runner's Up\\ Gamer's Choice\end{minipage}}}%
+    \put(0.51678635,0.07684443){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2013\\ 2012\end{minipage}}}%
+    \put(0.57704021,0.06818972){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31732283\unitlength}\raggedright Splash Awards\end{minipage}}}%
+    \put(0.65892321,0.06819896){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.31732283\unitlength}\raggedleft 1st Runner's Up\end{minipage}}}%
+    \put(0.56315087,0.07313877){\color[rgb]{0.63921569,0.63921569,0.63921569}\makebox(0,0)[lt]{\begin{minipage}{0.45441506\unitlength}\raggedright \}\end{minipage}}}%
+    \put(0.57652273,0.34643245){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31732283\unitlength}\raggedright \textbf{Public Projects}\end{minipage}}}%
+    \put(0.51678635,0.31949196){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24723412\unitlength}\raggedright 2018\end{minipage}}}%
+    \put(0.57704016,0.31990319){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31732283\unitlength}\raggedright The English Tuition Corner\end{minipage}}}%
+    \put(0.72949928,0.30044041){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.24641339\unitlength}\raggedleft www.theenglishtuitioncorner.com\end{minipage}}}%
+    \put(0.65892321,0.32034862){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.31732283\unitlength}\raggedleft Website\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{Google.pdf}}%
+    \put(0.22485702,1.37760671){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.47052626\unitlength}\raggedright SUN Yudong\end{minipage}}}%
+    \put(0.22562556,1.33248149){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.31968385\unitlength}\raggedright 孙毓栋\end{minipage}}}%
+    \put(0.59621256,1.20565678){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.37581484\unitlength}\raggedleft Résumé\end{minipage}}}%
+    \put(0.93877549,0.22201509){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.1530612\unitlength}\raggedright \end{minipage}}}%
+    \put(0.32023959,1.2836899){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.29417698\unitlength}\raggedright sunjerry019@gmail.com\end{minipage}}}%
+    \put(0.22572438,1.28640712){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.24135941\unitlength}\raggedright \textbf{Email}\end{minipage}}}%
+    \put(0.32037202,1.26401679){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.24135941\unitlength}\raggedright Blk 91 Tanglin Halt Road\\ #25-300 Singapore 142091\end{minipage}}}%
+    \put(0.22513441,1.26422006){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.24135941\unitlength}\raggedright \textbf{Address}\end{minipage}}}%
+    \put(0.31964162,1.21591977){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.29417698\unitlength}\raggedright 97265068\\ \end{minipage}}}%
+    \put(0.22572438,1.2202808){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.24135941\unitlength}\raggedright \textbf{Phone}\end{minipage}}}%
+    \put(0.32011409,1.19397651){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.29417698\unitlength}\raggedright 29 Jul 1998\end{minipage}}}%
+    \put(0.22572438,1.19833754){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.24135941\unitlength}\raggedright \textbf{D.O.B.}\end{minipage}}}%
+    \put(0.79562345,1.22934543){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.2589576\unitlength}\raggedright github.com/sunjerry019\end{minipage}}}%
+  \end{picture}%
+\endgroup%

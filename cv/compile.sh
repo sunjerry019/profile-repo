@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FILE="Google"
+FILE="google"
 TYPE="resume" # or "cv"
 
 svgtopdf "$FILE.svg"

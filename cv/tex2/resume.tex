@@ -1,0 +1,38 @@
+\documentclass[11pt]{article}
+
+\usepackage[a4paper,top=35mm]{geometry}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{pdfpages}
+\usepackage{tikz}
+\usepackage{transparent}
+\pagenumbering{gobble}
+
+\usepackage{hyperref}
+\hypersetup{
+	pdftitle={Sun Yudong - Resume},
+	pdfauthor={Sun Yudong},
+	bookmarksnumbered=true,
+	bookmarksopen=true,
+	bookmarksopenlevel=2,
+	pdfstartview=Fit,
+	pdfpagemode=UseOutlines,
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=magenta,      
+	urlcolor=black
+}
+\urlstyle{same}
+
+\begin{document}
+
+\includepdf[pagecommand={\begin{tikzpicture}[remember picture, overlay]%
+	\node[] at (5,1.03) {{\transparent{0}\href{mailto:sunjerry019@gmail.com}{sunjerry019@gmail.com}}};%
+	\node[] at (14.8,-0.1) {{\footnotesize\transparent{0}\href{https://github.com/sunjerry019}{//github.com/sunjerry019}}};%
+	\node[] at (14.5,-19.7) {{\scriptsize\transparent{0}\href{https://www.theenglishtuitioncorner.com}{www.theenglishtuitioncorner.com}}};%
+	\node[] at (10.7,-19.3) {{\transparent{0}\href{https://www.theenglishtuitioncorner.com}{The English Tuition Corner}}};%
+	\node[] at (10.25,-22.5) {{\transparent{0}\href{https://medium.com/@UP_Singapore/making-a-difference-at-singapores-first-manpower-hackathon-b9ef5220ae3}{Manpower Hackathon}}};%
+	\node[] at (15.7,-22.5) {{\transparent{0}\href{https://medium.com/@UP_Singapore/making-a-difference-at-singapores-first-manpower-hackathon-b9ef5220ae3\#cdd2}{Best Design}}};%
+	\end{tikzpicture}},pages=-]{Google}
+
+\end{document}

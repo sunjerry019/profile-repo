@@ -1,0 +1,174 @@
+%% Creator: Inkscape inkscape 0.92.4, www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Google.eps' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{597.37987244bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.40839627)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength]{Google.eps}}%
+    \put(0.02685736,0.26008996){\color[rgb]{0.45098039,0.61568627,0.05882353}\makebox(0,0)[lt]{\begin{minipage}{0.43809334\unitlength}\raggedright \textbf{Engagements}\end{minipage}}}%
+    \put(0.02756878,0.13458003){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2017/01 - /02\end{minipage}}}%
+    \put(0.21014648,0.13491385){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30175589\unitlength}\raggedright Teaching Intern (Physics / Maths) \\ at Queensway Secondary School\\ \end{minipage}}}%
+    \put(0.02756878,0.16923286){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2017/02 - Now \end{minipage}}}%
+    \put(0.20929945,0.16956668){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30353139\unitlength}\raggedright NSF (Army / 35SCE)\end{minipage}}}%
+    \put(0.02756878,0.22438309){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2018/02 - Now\end{minipage}}}%
+    \put(0.210036,0.22471691){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.29984112\unitlength}\raggedright SJPO Alumni Trainer \\ at Hwa Chong Institution\end{minipage}}}%
+    \put(0.02756878,0.07959553){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2015/02 - 2016/06\end{minipage}}}%
+    \put(0.21014648,0.07992935){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30175589\unitlength}\raggedright Coding4Children \\ at Ulu Pandan Stars (UP Stars)\\ \end{minipage}}}%
+    \put(0.02765417,0.56207316){\color[rgb]{0.45098039,0.61568627,0.05882353}\makebox(0,0)[lt]{\begin{minipage}{0.37280827\unitlength}\raggedright \textbf{Co-Curricular Activities}\end{minipage}}}%
+    \put(0.02836554,0.52525422){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2011 - 2016\end{minipage}}}%
+    \put(0.16826426,0.52558804){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.28133739\unitlength}\raggedright Electronics and Computer Club\end{minipage}}}%
+    \put(0.04275556,0.49985462){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.30353139\unitlength}\raggedright Vice - Chairman\end{minipage}}}%
+    \put(0.37648033,0.49993501){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2013 - 2014\end{minipage}}}%
+    \put(0.02836554,0.41837069){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2015 - 2016\end{minipage}}}%
+    \put(0.16826426,0.41870451){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30353139\unitlength}\raggedright Science Students' Research Council\end{minipage}}}%
+    \put(0.04148502,0.36467597){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.35679701\unitlength}\raggedright Physics Interest Group (Main Commitee)\end{minipage}}}%
+    \put(0.04194536,0.34060948){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.53875497\unitlength}\raggedright International Science Youth Forum (ISYF) \end{minipage}}}%
+    \put(0.29968535,0.31589085){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.42325063\unitlength}\raggedright Media and Publicity I/C\end{minipage}}}%
+    \put(0.23000127,0.34029668){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedleft 2016\end{minipage}}}%
+    \put(0.04148502,0.38868966){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.42325063\unitlength}\raggedright Council Publicity I/C\end{minipage}}}%
+    \put(0.23000127,0.38684589){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedleft 2016\end{minipage}}}%
+    \put(0.02836554,0.45785195){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2014 - 2016\end{minipage}}}%
+    \put(0.16826426,0.45818577){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30353139\unitlength}\raggedright Photonics Interest Group\end{minipage}}}%
+    \put(0.02765417,1.12260578){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright \textbf{Education}\end{minipage}}}%
+    \put(0.02836554,0.61879068){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2005 - 2010\end{minipage}}}%
+    \put(0.15570943,0.61912451){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright Nan Hua Primary School\end{minipage}}}%
+    \put(0.02836554,1.0929864){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2015 - 2016\end{minipage}}}%
+    \put(0.15570937,1.09332023){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31620505\unitlength}\raggedright Hwa Chong Institution \\ (Junior College)\\ \end{minipage}}}%
+    \put(0.04225337,1.03891382){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.34759212\unitlength}\raggedright Gifted and Talented Education Programme\end{minipage}}}%
+    \put(0.04225337,1.01832052){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.32499342\unitlength}\raggedright Specialisation in Physics and Maths\end{minipage}}}%
+    \put(0.37653061,1.0177552){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2015 - 2016\end{minipage}}}%
+    \put(0.04225337,0.97581661){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.39482497\unitlength}\raggedright Singapore - Cambridge GCE A Levels \end{minipage}}}%
+    \put(0.04225337,0.90180625){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.46881058\unitlength}\raggedright \textit{Hwa Chong Diploma with Distinction}\end{minipage}}}%
+    \put(0.04225337,0.94550269){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.4146572\unitlength}\raggedright \textit{H2 Physics, Chemistry, Mathematics, German}\textit{\\ }\textit{H3 Linear Algebra [NUS] }\end{minipage}}}%
+    \put(0.08065956,0.94502362){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.39482497\unitlength}\raggedleft \textit{4 × A's}\end{minipage}}}%
+    \put(0.08115992,0.92367556){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.39482497\unitlength}\raggedleft \textit{Distinction}\end{minipage}}}%
+    \put(0.02836554,0.84838906){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2011 - 2014\end{minipage}}}%
+    \put(0.15570943,0.8487229){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.32750439\unitlength}\raggedright Hwa Chong Institution \\ (High School / IP)\end{minipage}}}%
+    \put(0.04225337,0.74173926){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.32499342\unitlength}\raggedright Science and Math Talent Programme\end{minipage}}}%
+    \put(0.04225337,0.72114595){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.32499342\unitlength}\raggedright Specialisation in Physics and Biology\end{minipage}}}%
+    \put(0.37653061,0.72024315){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2013 - 2014\end{minipage}}}%
+    \put(0.00294678,0.67183574){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.4729778\unitlength}\raggedleft \textit{Academic Mean Subject Grade = 1.27}\end{minipage}}}%
+    \put(0.00784062,0.69352532){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.46881058\unitlength}\raggedleft \textit{Outstanding Student Award Recipient}\end{minipage}}}%
+    \put(0.04202487,0.79541221){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.32499342\unitlength}\raggedright German as a Third Language\end{minipage}}}%
+    \put(0.37653061,0.79450941){\color[rgb]{0.20784314,0.20784314,0.20784314}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2011 - 2014\end{minipage}}}%
+    \put(0.00598812,0.77093031){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.46881058\unitlength}\raggedleft \textit{2nd in National Cohort}\end{minipage}}}%
+    \put(0.51854782,1.12260586){\color[rgb]{0.61568627,0,0.49803922}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright \textbf{Skills and Abilities}\textbf{\\ }\end{minipage}}}%
+    \put(0.51772421,1.0899754){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright \textbf{Languages}\end{minipage}}}%
+    \put(0.51772421,0.95940478){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright \textbf{Skills}\end{minipage}}}%
+    \put(0.51788999,1.05913958){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.27595675\unitlength}\raggedright \textbf{English}\end{minipage}}}%
+    \put(0.51884195,1.03431713){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39297419\unitlength}\raggedright Excellent \\ Written and Spoken\end{minipage}}}%
+    \put(0.671595,1.05735345){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.27595675\unitlength}\raggedright \textbf{Chinese}\end{minipage}}}%
+    \put(0.6721022,1.03423427){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39297419\unitlength}\raggedright Good \\ Written and Spoken\end{minipage}}}%
+    \put(0.82485529,1.05735345){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.27595675\unitlength}\raggedright \textbf{German}\end{minipage}}}%
+    \put(0.82536248,1.03436838){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39297419\unitlength}\raggedright Good \\ Written and Spoken\\ TestDaF (TDN 4/5/4/4)\end{minipage}}}%
+    \put(0.57978247,0.47096689){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39297419\unitlength}\raggedright \end{minipage}}}%
+    \put(0.63286206,0.43862613){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34165097\unitlength}\raggedright Photography, Video Editing\end{minipage}}}%
+    \put(0.51831346,0.43862613){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright \textbf{Others}\end{minipage}}}%
+    \put(0.63367231,0.85026028){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34304474\unitlength}\raggedright *NIX Sys Administration and Automation\end{minipage}}}%
+    \put(0.63189246,0.82854993){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.33865056\unitlength}\raggedleft \textit{shell scripting; server deployment}\end{minipage}}}%
+    \put(0.63286209,0.72343205){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.44285559\unitlength}\raggedright Python, C++\end{minipage}}}%
+    \put(0.63624243,0.69966243){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.33099781\unitlength}\raggedleft incl. data-processing purposes used in conjuction with software such as gnuplot.\end{minipage}}}%
+    \put(0.5278205,0.93121747){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.27595675\unitlength}\raggedright \textbf{Proficient}\end{minipage}}}%
+    \put(0.52877245,0.90639501){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39297419\unitlength}\raggedright \end{minipage}}}%
+    \put(0.63286211,0.64361073){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34165097\unitlength}\raggedright Document processing with LaTeX\end{minipage}}}%
+    \put(0.63286211,0.75864825){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34165097\unitlength}\raggedright Data Analysis\end{minipage}}}%
+    \put(0.63335925,0.79366183){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34165097\unitlength}\raggedright Git Distributed Version Control System\end{minipage}}}%
+    \put(0.63286211,0.93119936){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34304474\unitlength}\raggedright Web Design + Full Stack Development\end{minipage}}}%
+    \put(0.7923693,0.90619697){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34165097\unitlength}\raggedright JavaScript, HTML/CSS\\ \end{minipage}}}%
+    \put(0.65587485,0.90619697){\color[rgb]{0.43529412,0.43529412,0.43529412}\makebox(0,0)[lt]{\begin{minipage}{0.34165097\unitlength}\raggedright Frontend: \end{minipage}}}%
+    \put(0.65537438,0.88208837){\color[rgb]{0.43529412,0.43529412,0.43529412}\makebox(0,0)[lt]{\begin{minipage}{0.34165097\unitlength}\raggedright Backend:\end{minipage}}}%
+    \put(0.9246217,0.88208837){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.34165097\unitlength}\raggedright LAMP\end{minipage}}}%
+    \put(0.52828084,0.6007745){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.27595675\unitlength}\raggedright \textbf{Basic}\end{minipage}}}%
+    \put(0.56956913,0.43282698){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39297419\unitlength}\raggedright \end{minipage}}}%
+    \put(0.63335924,0.60059024){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.44285559\unitlength}\raggedright C#, VBA and MATLAB\end{minipage}}}%
+    \put(0.63335924,0.52049927){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.44551885\unitlength}\raggedright Computer security\end{minipage}}}%
+    \put(0.63335924,0.57054076){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.44551885\unitlength}\raggedright Competitive programming\end{minipage}}}%
+    \put(0.64319542,0.5514912){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.33099781\unitlength}\raggedleft incl. data structures and algorithms\end{minipage}}}%
+    \put(0.63335924,0.48917927){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.44551885\unitlength}\raggedright Signal processing\end{minipage}}}%
+    \put(0.51854782,0.38660172){\color[rgb]{0.61568627,0,0.14509804}\makebox(0,0)[lt]{\begin{minipage}{0.45728426\unitlength}\raggedright \textbf{Relevant Experiences and Achievements}\end{minipage}}}%
+    \put(0.57824669,0.26309008){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31620505\unitlength}\raggedright \textbf{Contests and Competitions}\end{minipage}}}%
+    \put(0.51872069,0.2344327){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2016\end{minipage}}}%
+    \put(0.5787623,0.23484249){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31620505\unitlength}\raggedright Euclid Math Contest\end{minipage}}}%
+    \put(0.66035686,0.23484249){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.31620505\unitlength}\raggedleft Distinction\end{minipage}}}%
+    \put(0.51872069,0.2024649){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2016\end{minipage}}}%
+    \put(0.5787623,0.20287469){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31620505\unitlength}\raggedright National Olympiad in Informatics\end{minipage}}}%
+    \put(0.66035686,0.20287469){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.31620505\unitlength}\raggedleft Bronze\end{minipage}}}%
+    \put(0.51872069,0.16731152){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2015\end{minipage}}}%
+    \put(0.5787623,0.16772131){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31620505\unitlength}\raggedright Manpower Hackathon\end{minipage}}}%
+    \put(0.66035686,0.16772131){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.31620505\unitlength}\raggedleft Best Design\end{minipage}}}%
+    \put(0.51872069,0.13195559){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2014\end{minipage}}}%
+    \put(0.5787623,0.13236538){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31620505\unitlength}\raggedright Singapore Games Creation Competition\end{minipage}}}%
+    \put(0.66035686,0.13236538){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.31620505\unitlength}\raggedleft 2nd Runner's Up\\ Gamer's Choice\end{minipage}}}%
+    \put(0.51872069,0.07635183){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2013\\ 2012\end{minipage}}}%
+    \put(0.5787623,0.0677276){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31620505\unitlength}\raggedright Splash Awards\end{minipage}}}%
+    \put(0.66035686,0.0677368){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.31620505\unitlength}\raggedleft 1st Runner's Up\end{minipage}}}%
+    \put(0.56492188,0.07265921){\color[rgb]{0.63921569,0.63921569,0.63921569}\makebox(0,0)[lt]{\begin{minipage}{0.45281438\unitlength}\raggedright }\end{minipage}}}%
+    \put(0.57824665,0.34499021){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31620505\unitlength}\raggedright \textbf{Public Projects}\end{minipage}}}%
+    \put(0.51872069,0.31814462){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.24636323\unitlength}\raggedright 2018\end{minipage}}}%
+    \put(0.57876225,0.31855441){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.31620505\unitlength}\raggedright The English Tuition Corner\end{minipage}}}%
+    \put(0.73068433,0.29916019){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.24554539\unitlength}\raggedleft www.theenglishtuitioncorner.com\end{minipage}}}%
+    \put(0.66035686,0.31899827){\color[rgb]{0.46666667,0.46666667,0.46666667}\makebox(0,0)[lt]{\begin{minipage}{0.31620505\unitlength}\raggedleft Website\end{minipage}}}%
+    \put(0.22781968,1.37253214){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.46886882\unitlength}\raggedright SUN Yudong\end{minipage}}}%
+    \put(0.22858552,1.32756588){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.31855775\unitlength}\raggedright 孙毓栋\end{minipage}}}%
+    \put(0.59786712,1.20118791){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.37449103\unitlength}\raggedleft Résumé\end{minipage}}}%
+    \put(0.93922336,0.22101112){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{1.14899952\unitlength}\raggedright \end{minipage}}}%
+    \put(0.32286627,1.27894616){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.29314074\unitlength}\raggedright sunjerry019@gmail.com\end{minipage}}}%
+    \put(0.22868398,1.2816538){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.24050922\unitlength}\raggedright \textbf{Email}\end{minipage}}}%
+    \put(0.32299822,1.25934235){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.24050922\unitlength}\raggedright Blk 91 Tanglin Halt Road\\ #25-300 Singapore 142091\end{minipage}}}%
+    \put(0.22809609,1.2595449){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.24050922\unitlength}\raggedright \textbf{Address}\end{minipage}}}%
+    \put(0.3222704,1.21141475){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.29314074\unitlength}\raggedright 97265068\\ \end{minipage}}}%
+    \put(0.22868398,1.21576042){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.24050922\unitlength}\raggedright \textbf{Phone}\end{minipage}}}%
+    \put(0.32274121,1.18954879){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.29314074\unitlength}\raggedright 29 Jul 1998\end{minipage}}}%
+    \put(0.22868398,1.19389445){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.24050922\unitlength}\raggedright \textbf{D.O.B.}\end{minipage}}}%
+    \put(0.79657558,1.22479312){\color[rgb]{1,1,1}\makebox(0,0)[lt]{\begin{minipage}{0.25804542\unitlength}\raggedright github.com/sunjerry019\end{minipage}}}%
+  \end{picture}%
+\endgroup%
