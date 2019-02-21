@@ -1,0 +1,193 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,left=1in,right=1in,bottom=1in]{geometry}
+\usepackage{enumitem}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{transparent}
+\usepackage{tabularx}
+\usepackage{parskip}
+\usepackage[english]{babel}
+\usepackage{setspace}
+
+\usepackage{blindtext}
+
+% \usepackage{libertine}
+% \usepackage{pdfpages}
+
+% \usepackage[ttdefault=true]{AnonymousPro}
+\usepackage[defaultfam,tabular,lining]{montserrat} %% Option 'defaultfam'
+%% only if the base font of the document is to be sans serif
+\usepackage[T1]{fontenc}
+\renewcommand*\oldstylenums[1]{{\fontfamily{Montserrat-TOsF}\selectfont #1}}
+% http://www.tug.dk/FontCatalogue/
+\renewcommand*{\ttdefault}{cmvtt}
+
+% \pagenumbering{gobble}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{\ttfamily \thepage\space of \pageref{LastPage}}
+% https://www.overleaf.com/learn/latex/Page_numbering
+% https://tex.stackexchange.com/a/74354
+
+\usepackage{hyperref}
+\hypersetup{
+	pdftitle={Sun Yudong - Curriculum Vitae},
+	pdfauthor={Sun Yudong},
+	bookmarksnumbered=true,
+	bookmarksopen=true,
+	bookmarksopenlevel=2,
+	pdfstartview=Fit,
+	pdfpagemode=UseOutlines,
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=magenta,
+	urlcolor=black
+}
+\urlstyle{same}
+
+\usepackage{titlesec}
+
+\makeatletter
+	\renewcommand\thesection{\two@digits{\value{section}}}
+\makeatother
+% https://tex.stackexchange.com/a/101714
+
+\titleformat{\section} % {command}
+  {\normalfont\bfseries\Large}{\textcolor{gray}{\normalfont \ttfamily / \thesection}}{1em}{}
+  % {format}{label}{sep}{beforecode}{aftercode}
+  % https://tex.stackexchange.com/a/36611
+
+\definecolor{section_1}{HTML}{00729c}
+\definecolor{section_2}{HTML}{729c0f}
+\definecolor{section_3}{HTML}{ff6400}
+\definecolor{section_4}{HTML}{9c007f}
+\definecolor{section_5}{HTML}{9c0024}
+\definecolor{text_link}{HTML}{006080}
+\definecolor{code_back}{HTML}{dddddd}
+\definecolor{subheader}{HTML}{af0029}
+\definecolor{skiheader}{HTML}{0392aa}
+\definecolor{subtitles}{HTML}{a9a9a9}
+
+\newcommand{\linkout}[2]{\href{#1}{\textcolor{text_link}{#2}}}
+\newcommand{\code}[1]{\colorbox{code_back}{\texttt{#1}}}
+
+\begin{document}
+
+% https://tex.stackexchange.com/a/386331
+\begin{tikzpicture}[remember picture,overlay,shift={(current page.north east)}]
+    \node[anchor=north east,xshift=1.6mm,yshift=1.5mm]{\includegraphics{header.eps}};
+\end{tikzpicture}
+\begin{tikzpicture}[remember picture, overlay]%
+    \node[] at (6.15, 1.08) {{\transparent{0}\fontsize{10}{10}\texttt{\href{mailto:yudongsun019@gmail.com}{yudongsun019@gmail.com}}}};%
+    \node[] at (15.91, 0.0)  {{\fontsize{10}{10}\transparent{0}\texttt{\href{https://github.com/sunjerry019}{github.com/sunjerry019}}}};% 14.8, -0.03, 14,65
+    \node[] at (15.545, 0.43) {{\fontsize{10}{10}\transparent{0}\texttt{\href{https://linkedin.com/in/sunjerry019}{linkedin.com/in/sunjerry019}}}};%
+\end{tikzpicture}
+\vspace{1.5cm}
+
+\section{\textcolor{section_1}{Education}}
+\vspace{-\baselineskip}
+{
+	\renewcommand{\arraystretch}{2}
+	\begin{tabularx}{\textwidth}{@{}l p{0.3cm} X@{}}
+		\texttt{\large 2015 - 2016} & & \textbf{Hwa Chong Institution (Junior College)}\par GCE A Levels \hfill \textcolor{gray}{H2 4$\times$A's // H3 Distinction}\par \hfill \textcolor{gray}{{\scriptsize Physics, Chemistry, Maths and German} \hspace{1em} H2}\par \hfill \textcolor{gray}{{\scriptsize Linear Algebra [NUS]} \hspace{1em} H3} \\[-0.5em]
+		&& {\small Selected to pursue Physics and Maths under the Gifted and Talented Education Programme. Excelled and was awarded the Hwa Chong Diploma with Distinction upon graduation.} \\
+		\texttt{\large 2011 - 2014} & & \textbf{Hwa Chong Institution (High School)} \par Integrated Programme \hfill \textcolor{gray}{{\scriptsize Academic Mean Subject Grade} \texttt{\large 1.27}} \\[-0.5em]
+		&& {\small Outstanding Student Award {\footnotesize (OSA)} recipient who specialised in Physics and Biology under the selective Special Science and Math Talent {\footnotesize (SSMT)} Programme. Also achieved 2\textsuperscript{nd} in National Cohort for German as a 3\textsuperscript{rd} Language.} %\\
+		%\texttt{\large 2005 - 2010} & & \textbf{Nan Hua Primary School}
+	\end{tabularx}
+}
+
+\vspace{-1em}
+
+\section{\textcolor{section_4}{Skills and Abilities}}
+\vspace{-\parskip}
+	\subsection*{Languages}
+		\begin{center}
+			\begin{tabular}{@{} p{4cm} p{4cm} p{4.1cm} @{}}
+				\textcolor{subheader}{\textit{English}} & \textcolor{subheader}{\textit{Chinese}} & \textcolor{subheader}{\textit{German}} \\
+				% Excellent & Good & Good \\
+				Native Level & Native Level & Working Proficiency \\ 
+				\textcolor{subtitles}{Written/Spoken} & \textcolor{subtitles}{Written/Spoken} & TestDaF (TDN \texttt{4/5/4/4})
+			\end{tabular}
+		\end{center}
+	\vspace{-\parskip}
+	\subsection*{Skills}
+	\vspace{-\parskip}
+		{
+			\renewcommand{\arraystretch}{1.5}
+			\setlength{\tabcolsep}{12pt}
+			\begin{tabularx}{\textwidth}{@{} p{0.52\textwidth} p{0.41\textwidth} @{}}
+				\textcolor{skiheader}{\textit{Proficient}} & \textcolor{skiheader}{\textit{Good}} \\
+				\vspace{-1em}
+				\begin{itemize}[leftmargin=3mm]
+					\renewcommand\labelitemi{}
+					\setlength\itemsep{0.7em}
+					\item Web Design + Full Stack Development \par
+						\vspace{1mm}
+						\hspace{1em} \textcolor{gray}{Frontend} \hfill JavaScript, HTML\textcolor{Bittersweet}{5}/CSS\textcolor{Bittersweet}{3} \par
+						\hspace{1em} \textcolor{gray}{Backend} \hfill LAMP 
+					\item \**NIX Sys Administration and Automation \par
+						\hfill \textcolor{gray}{\footnotesize \itshape shell scripting; server deployment}
+					\item Git Distributed Version Control System
+					\item Python, C/C++ \par
+						\hfill \textcolor{gray}{\footnotesize \itshape incl. data processing (gnuplot, numpy)}
+						% \hfill \textcolor{gray}{\footnotesize \itshape incl. data-processing purposes used in} \par \vspace{-1mm}
+						% \hfill \textcolor{gray}{\footnotesize \itshape conjunction with software such as gnuplot}
+					\item Data Analysis
+					\item Document processing with{\fontfamily{cmr} \selectfont \LaTeX}
+				\end{itemize} & 
+				\vspace{-1em}
+				\begin{itemize}[leftmargin=3mm]
+					\renewcommand\labelitemi{}
+					\setlength\itemsep{0.7em}
+					\item NodeJS, C\#, VBA, and MATLAB 
+					\item Competitive Programming \par
+						\hfill \textcolor{gray}{\footnotesize \itshape incl. data structures and algorithms}
+					\item Computer Security
+					\item Signal Processing
+				\end{itemize}
+				\vspace{1cm}
+				\textcolor{skiheader}{\textit{Others}} \par
+				\hspace{2mm} Photography, Video Editing 
+
+				% Web Design + Full Stack Development & C#, VBA, and MATLAB \\
+				% \**NIX Sys Administration and Automation & Competitive Programming \\
+				% Git Distributed Version Control System & Computer Security \\
+				% Data Analysis & Signal Processing \\
+				% Python, C++ & \\
+				% Document processing with {{\fontfamily{cmr}\selectfont \LaTeX}} & 
+			\end{tabularx}
+
+		}
+
+	% for LaTeX https://tex.stackexchange.com/a/25251
+
+
+\section{\textcolor{section_2}{Relevant Experiences}}
+\vspace{-\baselineskip}
+{
+	\renewcommand{\arraystretch}{2}
+	\begin{tabularx}{\textwidth}{@{}l p{0.3cm} X@{}}
+		\texttt{\large 2011 - 2016} & & \textbf{Electronic Communications and Computer Club (EC\textsuperscript{3})} \par\textcolor{gray}{Vice Chairman \hspace{1em} \texttt{2014}} \hfill Web Developer\\[-0.5em]
+		&&  Self taught most computer knowledge in this club. Developed skills and gained experience in Web Design Development and Competitive Programming. Exposed to basic computer security concepts. Represented the school in national competitions such as the Singapore Games Creation Competition {\footnotesize (SGCC)} and National Olympiad in Informatics {\footnotesize (NOI)}. \\
+		\texttt{\large 2014 - 2016} & & \textbf{Photonics Interest Group} \par\textcolor{gray}{Founding Member} \hfill \linkout{https://github.com/sunjerry019/photonLauncher}{\texttt{\small github.com/sunjerry019/photonLauncher}}\par {\scriptsize Measuring the Temporal Correlation of Light from a Mercury Discharge Lamp \hfill\texttt{2016}}\\[-0.5em]
+		% && {\small Carried out Photon Statistics experiments in the photonics lab. Dual-booted a network of lab computers with Linux for better integration across applications such as \code{gnuplot}, \code{numpy} and \code{bash}. Improved file-sharing through \code{NFS}. Created equipment interfacing scripts using \code{Python 3} with libraries such as \code{pyusb} and automated repeated data acquisition and processing. Large datasets were then aggregated and statistically analysed with \code{numpy}. \code{Reverse SSH} was also utilized for remote monitoring, experimentation and extraction of data without physical access to the lab. Also attempted cluster computing using Raspberry Pis.} \\
+		&& {\small Carried out Photon Statistics experiments in the photonics lab. Created equipment interfacing scripts on Linux using \code{Python 3} with libraries such as \code{pyusb} and automated repeated data acquisition and processing. Large datasets were then aggregated and statistically analysed with \code{numpy} and fitted with \code{gnuplot}. \code{Reverse SSH} was also utilized for remote monitoring, experimentation and extraction of data without physical access to the lab. } \\
+		\texttt{\large 2015 - 2016} & & \textbf{Science Student' Research Council} \par\textcolor{gray}{Publicity I/C \hspace{1em} \texttt{2016}} \hfill Physics Research\par \linkout{https://ssrc.infocommsociety.com/}{\texttt{\small ssrc.infocommsociety.com}}\\[-0.5em]
+		&& Led a team in the promotion of Science as the overall Media and Publicity I/C for the Council and the International Science Youth Forum {\footnotesize (ISYF)}. Administered and designed both the Council and Forum Website in \texttt{\large 2016} with \code{Wordpress}. \\
+	\end{tabularx}
+}
+
+
+\section{\textcolor{section_3}{Engagements}}
+\vspace{-\parskip}
+SJPO Trainer put the github link
+
+\section{\textcolor{section_5}{Relevant Projects and Achievements}}
+\vspace{-\parskip}
+
+\end{document}
