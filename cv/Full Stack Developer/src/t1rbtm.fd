@@ -1,0 +1,22 @@
+\ProvidesFile{t1rbtm.fd}
+    [2018/02/24 font definitions for T1/rbtm.]
+
+\DeclareFontFamily{T1}{rbtm}{}
+
+\DeclareFontShape{T1}{rbtm}{m} {n} {<-> [0.90] rbtmmn8t }       {}
+\DeclareFontShape{T1}{rbtm}{b} {n} {<-> [0.90] rbtmbn8t }       {}
+\DeclareFontShape{T1}{rbtm}{m} {it}{<-> [0.90] rbtmmit8t }      {}
+\DeclareFontShape{T1}{rbtm}{b} {it}{<-> [0.90] rbtmbit8t }      {}
+\DeclareFontShape{T1}{rbtm}{m} {sc}{<-> ssub * rbtm/b/n} {}
+\DeclareFontShape{T1}{rbtm}{m} {sl}{<-> ssub * rbtm/m/it}{}
+\DeclareFontShape{T1}{rbtm}{sb}{n} {<-> ssub * rbtm/b/n} {}
+\DeclareFontShape{T1}{rbtm}{sb}{sc}{<-> ssub * rbtm/b/n} {}
+\DeclareFontShape{T1}{rbtm}{sb}{sl}{<-> ssub * rbtm/b/it}{}
+\DeclareFontShape{T1}{rbtm}{sb}{it}{<-> ssub * rbtm/b/it}{}
+\DeclareFontShape{T1}{rbtm}{b} {sc}{<-> ssub * rbtm/b/n}  {}
+\DeclareFontShape{T1}{rbtm}{b} {sl}{<-> ssub * rbtm/b/it} {}
+\DeclareFontShape{T1}{rbtm}{bx}{n} {<-> ssub * rbtm/b/n}  {}
+\DeclareFontShape{T1}{rbtm}{bx}{sc}{<-> ssub * rbtm/b/n}  {}
+\DeclareFontShape{T1}{rbtm}{bx}{sl}{<-> ssub * rbtm/b/it} {}
+\DeclareFontShape{T1}{rbtm}{bx}{it}{<-> ssub * rbtm/b/it} {}
+\endinput
