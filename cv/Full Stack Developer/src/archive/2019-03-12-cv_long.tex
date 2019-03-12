@@ -34,6 +34,15 @@
 
 	\pdfmapfile{+RobotoMono.map}
 
+	% % LUALATEX
+	% \usepackage{fontspec}
+	% \newfontface\rbtm{RobotoMono}[%
+	% 	Extension 		= .ttf,
+	% 	UprightFont 	= fonts/*-Regular,
+	% 	ItalicFont 		= fonts/*-Italic,
+	% 	BoldFont 		= fonts/*-Bold,
+	% 	BoldItalicFont 	= fonts/*-BoldItalic
+	% ]
 % ====== /FONTS ======
 
 % Fancy Header
@@ -122,8 +131,12 @@
 		&& {\small Selected to pursue Physics and Maths under the Gifted and Talented Education Programme. Excelled and was awarded the Hwa Chong Diploma with Distinction upon graduation.} \\
 		\texttt{\large 2011 - 2014} & & \textbf{Hwa Chong Institution (High School)} \par Integrated Programme \hfill \textcolor{gray}{{\scriptsize Academic Mean Subject Grade} \nummer{\large 1.27}} \\[-0.5em]
 		&& {\small Physics and Biology Specialisation with German as a 3\textsuperscript{rd} Language. Graduated with the Outstanding Student Award {\footnotesize (OSA)}. }
+		% && {\small Outstanding Student Award {\footnotesize (OSA)} recipient who specialised in Physics and Biology under the Special Science and Math Talent {\footnotesize (SSMT)} Programme. Also achieved 2\textsuperscript{nd} in National Cohort for German as a 3\textsuperscript{rd} Language.} %\\
+		%\texttt{\large 2005 - 2010} & & \textbf{Nan Hua Primary School}
 	\end{tabularx}
 }
+
+% \vspace{-1em}
 
 \section{\textcolor{section_4}{Skills and Abilities}}
 \vspace{-\parskip}
@@ -131,17 +144,73 @@
 		\begin{center}
 			\begin{tabular}{@{} p{4cm} p{4cm} p{4.1cm} @{}}
 				\textcolor{subheader}{\textit{English}} & \textcolor{subheader}{\textit{Chinese}} & \textcolor{subheader}{\textit{German}} \\
+				% Excellent & Good & Good \\
 				Native Level & Native Level & Working Proficiency \\ 
 				\textcolor{subtitles}{Written\texttt{/}Spoken} & \textcolor{subtitles}{Written\texttt{/}Spoken} & TestDaF (TDN \texttt{4/5/4/4})
 			\end{tabular}
 		\end{center}
+	% \vspace{-\parskip}
 	\subsection*{Skills}
 	\vspace{-\parskip}
+		% {
+		% 	\vspace{\parskip}
+		% 	\renewcommand{\arraystretch}{1.5}
+		% 	\setlength{\tabcolsep}{12pt}
+		% 	\textcolor{skiheader}{\textit{Proficient}}
+
+		% 	\vspace{-1em}
+		% 	\begin{tabularx}{\textwidth}{@{} p{0.52\textwidth} p{0.41\textwidth} @{}}
+		% 		\begin{itemize}[leftmargin=0mm]
+		% 			\renewcommand\labelitemi{}
+		% 			\setlength\itemsep{0.8em}
+		% 			\item Web Design + Full Stack Development \par
+		% 				\vspace{1mm}
+		% 				\hspace{1em} \textcolor{gray}{Frontend} \hfill JavaScript, HTML\textcolor{Bittersweet}{5}/CSS\textcolor{Bittersweet}{3} \par
+		% 				\hspace{1em} \textcolor{gray}{Backend} \hfill LAMP 
+		% 			\item \**NIX Sys Administration and Automation \par
+		% 				\hfill \textcolor{gray}{\footnotesize \itshape shell scripting; server deployment}
+		% 		\end{itemize} & 
+		% 		\begin{itemize}[leftmargin=0mm]
+		% 			\renewcommand\labelitemi{}
+		% 			\setlength\itemsep{0.5em}
+		% 			\item Git Distributed Version Control % System
+		% 			\item Python, C/C++ \par
+		% 				\hfill \textcolor{gray}{\footnotesize \itshape incl. data processing (gnuplot, numpy)}
+		% 			\item Data Analysis
+		% 			\item Document processing with{\fontfamily{cmr} \selectfont \LaTeX}
+		% 		\end{itemize}
+		% 	\end{tabularx}
+		% 	\vspace{-2em}
+
+		% 	\textcolor{skiheader}{\textit{Good}}
+
+		% 	\vspace{-1em}
+		% 	\begin{tabularx}{\textwidth}{@{} p{0.52\textwidth} p{0.41\textwidth} @{}}
+		% 		\begin{itemize}[leftmargin=0mm]
+		% 			\renewcommand\labelitemi{}
+		% 			\setlength\itemsep{0.4em}
+		% 			\item NodeJS, C\#, VBA, and MATLAB 
+		% 			\item Competitive Programming \par
+		% 				\hfill \textcolor{gray}{\footnotesize \itshape incl. data structures and algorithms}
+		% 		\end{itemize} & 
+		% 		\begin{itemize}[leftmargin=0mm]
+		% 			\renewcommand\labelitemi{}
+		% 			\setlength\itemsep{0.4em}
+		% 			\item Computer Security
+		% 			\item Signal Processing
+		% 		\end{itemize}
+		% 	\end{tabularx}
+		% 	\vspace{-2em}
+
+		% 	\textcolor{skiheader}{\textit{Others}}
+
+		% 	Photography, Video Editing 
+		% }
 		{
 			\renewcommand{\arraystretch}{1.5}
 			\setlength{\tabcolsep}{12pt}
 			\begin{tabularx}{\textwidth}{@{} p{0.52\textwidth} p{0.41\textwidth} @{}}
-				z\textcolor{skiheader}{\textit{Proficient}} & \textcolor{skiheader}{\textit{Good}} \\
+				\textcolor{skiheader}{\textit{Proficient}} & \textcolor{skiheader}{\textit{Good}} \\
 				\vspace{-1em}
 				\begin{itemize}[leftmargin=3mm]
 					\renewcommand\labelitemi{}
@@ -155,6 +224,8 @@
 					\item Git Distributed Version Control System
 					\item Python, C++ \par % C
 						\hfill \textcolor{gray}{\footnotesize \itshape incl. data processing (gnuplot, numpy)}
+						% \hfill \textcolor{gray}{\footnotesize \itshape incl. data-processing purposes used in} \par \vspace{-1mm}
+						% \hfill \textcolor{gray}{\footnotesize \itshape conjunction with software such as gnuplot}
 					\item Data Analysis
 					\item Document processing with{\fontfamily{cmr} \selectfont \LaTeX}
 				\end{itemize} & 
@@ -172,6 +243,13 @@
 				\textcolor{skiheader}{\textit{Others}} \par
 				\vspace{1mm}
 				\hspace{2mm} Photography, Video Editing 
+
+				% Web Design + Full Stack Development & C#, VBA, and MATLAB \\
+				% \**NIX Sys Administration and Automation & Competitive Programming \\
+				% Git Distributed Version Control System & Computer Security \\
+				% Data Analysis & Signal Processing \\
+				% Python, C++ & \\
+				% Document processing with {{\fontfamily{cmr}\selectfont \LaTeX}} & 
 			\end{tabularx}
 		}
 
@@ -212,6 +290,7 @@
 		% \pagebreak
 		\makecell{\texttt{\large 2017 - 2019} \vspace{-1mm} \\ \texttt{\footnotesize /02} \hspace{1.5em} \texttt{\footnotesize /02}} & & \textbf{Operations and Training Administrator} \hfill \textcolor{gray}{Army / NSF} \\[-0.5em]
 		& & {\small Overcame limitations of provided tools by creating and maintaining a database in Excel to manage the particulars and details of more than \nummer{1200} people, including writing periphery tools to automate the verification {\footnotesize(e.g. NRIC)} and retrieval of information from the intranet using \code{VBA} and formulae. }\\
+		% Automated the maintenance of a personal particulars database by using \code{VBA} Macros in Excel to scrape the intranet. Familiar with formulae. Also used \code{\small C++} to modify \code{svg} files to generate over \texttt{\large 1200} luggage labels for an overseas exercise.
 		\makecell{\texttt{\large 2017 - 2017} \vspace{-1mm} \\ \texttt{\footnotesize /01} \hspace{1.5em} \texttt{\footnotesize /02}} & & \textbf{Teaching Intern} \hfill \textcolor{gray}{Physics/Maths} \par \textcolor{gray}{Queensway Secondary School {\footnotesize (QSS)}}\\[-0.5em]
 		& & {\small Taught upper secondary express students Physics and Mathematics as an intern. Created worksheets, marked tests and kickstarted the QSS Makerspace for students to explore their interests in tinkering with things.} \\
 		\makecell{\texttt{\large 2015 - 2016} \vspace{-1mm} \\ \texttt{\footnotesize /02} \hspace{1.5em} \texttt{\footnotesize /06}} & & \textbf{Founding Member, Coding4Children} \hfill \textcolor{gray}{Volunteer} \par \textcolor{gray}{Ulu Pandan Stars {\footnotesize (UP Stars)}}\\[-0.5em]
@@ -228,6 +307,8 @@
 		\texttt{\large 2011 - 2016} & & \textbf{Electronic Communications and Computer Club (EC\textsuperscript{3})} \par\textcolor{gray}{Vice Chairman \hspace{1em} \texttt{2014}} \hfill Web Developer\\[-0.5em]
 		&& {\small Self taught most computer knowledge in this club. Developed skills and gained experience in Web Design Development and Competitive Programming. Exposed to basic computer security concepts. Represented the school in national competitions such as the Singapore Games Creation Competition {\footnotesize (SGCC)} and National Olympiad in Informatics {\footnotesize (NOI)}.} \\
 		\texttt{\large 2014 - 2016} & & \textbf{Photonics Interest Group} \par\textcolor{gray}{Founding Member} \hfill \urllinkout{https://github.com/sunjerry019/photonLauncher}{github.com/sunjerry019/photonLauncher}\par {\scriptsize Measuring the Temporal Correlation of Light from a Mercury Discharge Lamp \hfill\texttt{2016}}\\[-0.5em]
+		% && {\small Carried out Photon Statistics experiments in the photonics lab. Dual-booted a network of lab computers with Linux for better integration across applications such as \code{gnuplot}, \code{numpy} and \code{bash}. Improved file-sharing through \code{NFS}. Created equipment interfacing scripts using \code{Python 3} with libraries such as \code{pyusb} and automated repeated data acquisition and processing. Large datasets were then aggregated and statistically analysed with \code{numpy}. \code{Reverse SSH} was also utilized for remote monitoring, experimentation and extraction of data without physical access to the lab. Also attempted cluster computing using Raspberry Pis.} \\
+		% && {\small Carried out Photon Statistics experiments in the photonics lab. Created equipment interfacing scripts on Linux using \code{Python 3} with libraries such as \code{pyusb} and automated said scripts for repeated data acquisition and processing. Large datasets were then aggregated and statistically analysed with \code{numpy} and fitted with \code{gnuplot}. \code{Reverse SSH} was also utilized for remote monitoring, experimentation and extraction of data without physical access to the lab. } \\
 		&& {\small Carried out Photon Statistics experiments in the photonics lab. Created equipment interfacing scripts on Linux using \code{Python 3} with libraries such as \code{pyusb} and automated said scripts for repeated data acquisition and processing. Aggregated and analysed large datasets with \code{numpy} and \code{gnuplot}. Also enabled remote monitoring, experimentation and extraction of data without physical access to the lab through reverse \code{SSH}. } \\
 		\texttt{\large 2015 - 2016} & & \textbf{Science Student' Research Council} \par\textcolor{gray}{Publicity I/C \hspace{1em} \texttt{2016}} \hfill Physics Research\par \urllinkout{https://ssrc.infocommsociety.com/}{ssrc.infocommsociety.com}\\[-0.5em]
 		&& {\small Led a team in the promotion of Science as the overall Media and Publicity I/C for the Council and the International Science Youth Forum {\footnotesize (ISYF)}. Administered and designed both the Council and Forum Website in \texttt{\large 2016} with \code{Wordpress}}. 
