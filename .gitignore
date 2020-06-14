@@ -261,3 +261,9 @@ TSWLatexianTemp*
 
 # standalone packages
 *.sta
+
+# Exclude Large Files
+*.NEF
+*.NEF.xmp
+_DSC9431*
+deutsch.svg
