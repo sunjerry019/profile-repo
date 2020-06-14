@@ -1,0 +1,265 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[a4paper,left=1in,right=1in,bottom=0.8in,top=0.8in,headheight=60pt,headsep=0.5cm]{geometry}
+\usepackage{enumitem}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{transparent}
+\usepackage{tabularx}
+\usepackage{parskip}
+\usepackage[ngerman]{babel}
+\usepackage{setspace}
+\usepackage{makecell}
+% https://tex.stackexchange.com/a/176780
+% \usepackage{ltablex}
+% https://tex.stackexchange.com/a/26483
+% https://tex.stackexchange.com/a/376804
+\usepackage{multicol}
+
+\usepackage{blindtext}
+
+% \usepackage{libertine}
+% \usepackage{pdfpages}
+
+% ====== FONTS ======
+	\usepackage[defaultfam,tabular,lining]{montserrat} %% Option 'defaultfam'
+	%% only if the base font of the document is to be sans serif
+	% \usepackage[T1]{fontenc}
+	% \usepackage[scale=0.95,ttdefault=false]{AnonymousPro}
+	% \usepackage{textcomp}
+	\renewcommand*\oldstylenums[1]{{\fontfamily{Montserrat-TOsF}\selectfont #1}}
+	% http://www.tug.dk/FontCatalogue/
+	\renewcommand*{\ttdefault}{cmvtt}
+
+	\pdfmapfile{+RobotoMono.map}
+	\font\rbtmn=rbtmmn8t
+	\font\rbtmnemail=rbtmmn8t at 9pt
+	\font\rbtmnlinks=rbtmmn8t at 8pt
+
+% ====== /FONTS ======
+
+% Fancy Header
+% \pagenumbering{gobble}
+	\usepackage{fancyhdr}
+	\usepackage{lastpage}
+	\pagestyle{fancy}
+	\fancyhf{}
+	\renewcommand{\headrulewidth}{0pt}
+	% \renewcommand{\headrulewidth}{0.1pt}
+	% \renewcommand{\headrule}{\vspace{-10pt} \hbox to\headwidth{\color{headercol}\leaders\hrule height \headrulewidth\hfill}}
+	% \lhead{\color{headercol} Curriculum Vitae}
+	% \rhead{\color{headercol} Sun Yudong}
+	\cfoot{\ttfamily \thepage\space of \pageref{LastPage}}
+	% https://www.overleaf.com/learn/latex/Page_numbering
+	% https://tex.stackexchange.com/a/74354
+
+\usepackage{hyperref}
+\hypersetup{
+	pdftitle={Yudong Sun -- Lebenslauf},
+	pdfauthor={Yudong Sun},
+	bookmarksnumbered=true,
+	bookmarksopen=true,
+	bookmarksopenlevel=2,
+	pdfstartview=Fit,
+	pdfpagemode=UseOutlines,
+	colorlinks=true,
+	linkcolor=black,
+	filecolor=magenta,
+	urlcolor=black
+}
+\urlstyle{same}
+
+\usepackage{titlesec}
+
+\makeatletter
+	\renewcommand\thesection{\two@digits{\value{section}}}
+\makeatother
+% https://tex.stackexchange.com/a/101714
+
+\titleformat{\section} % {command}
+  {\normalfont\bfseries\Large}{\textcolor{gray}{\normalfont \ttfamily / \thesection}}{1em}{}
+  % {format}{label}{sep}{beforecode}{aftercode}
+  % https://tex.stackexchange.com/a/36611
+
+\definecolor{section_1}{HTML}{00729c}
+\definecolor{section_2}{HTML}{729c0f}
+\definecolor{section_3}{HTML}{ff6400}
+\definecolor{section_4}{HTML}{9c007f}
+\definecolor{section_5}{HTML}{9c0024}
+\definecolor{text_link}{HTML}{006080}
+\definecolor{code_back}{HTML}{dddddd}
+\definecolor{badgeback}{HTML}{393D43}
+\definecolor{subheader}{HTML}{af0029}
+\definecolor{skiheader}{HTML}{0392aa}
+\definecolor{subtitles}{HTML}{a9a9a9}
+\definecolor{headercol}{HTML}{aaaaaa}
+
+% \newcommand{\monoSp}[1]{{\fontfamily{qcr}\selectfont#1}}
+\newcommand{\monoSp}[1]{{\usefont{T1}{rbtm}{m}{n} #1}}
+\newcommand{\urllinkout}[2]{\href{#1}{\textcolor{text_link}{\small \texttt{#2}}}}
+\newcommand{\linkout}[2]{\href{#1}{\textcolor{text_link}{#2}}}
+% \newcommand{\code}[1]{\colorbox{code_back}{\monoSp{#1}}}
+\newcommand{\code}[1]{\monoSp{#1}}
+\newcommand{\badge}[1]{\colorbox{badgeback}{\color{white} \monoSp{#1}}}
+\newcommand{\nummer}[1]{\texttt{\large #1}}
+
+% For summary
+\setcounter{section}{-1}
+
+\begin{document}
+
+% https://tex.stackexchange.com/a/386331
+\begin{tikzpicture}[remember picture,overlay,shift={(current page.north east)}]
+    \node[anchor=north east,xshift=1.6mm,yshift=1.5mm]{\includegraphics{header-deutsch.eps}};
+\end{tikzpicture}
+\begin{tikzpicture}[remember picture, overlay]%
+    \node[] at (3.3, -0.45) {{\transparent{0}\fontsize1{0}{10}{\rbtmnemail\href{mailto:Yudong.Sun@physik.uni-muenchen.de}{Yudong.Sun@physik.uni-muenchen.de}}}};%
+    \node[] at (10.9, -2.3)  {{\fontsize{10}{10}\transparent{0}{\rbtmnlinks\href{https://github.com/sunjerry019}{github.com/sunjerry019}}}};% 14.8, -0.03, 14,65
+    \node[] at (10.45, -1.875) {{\fontsize{10}{10}\transparent{0}{\rbtmnlinks\href{https://linkedin.com/in/sunjerry019}{linkedin.com/in/sunjerry019}}}};%
+\end{tikzpicture}
+\vspace{2.8cm}
+
+\section{\textcolor{section_2}{Zusammenfassung}}
+\vspace{-\parskip}
+
+
+\section{\textcolor{section_4}{Fähigkeiten}}
+\vspace{-\parskip}
+	\subsection*{Sprachen}
+		\begin{center}
+			\begin{tabular}{@{} p{4cm} p{4cm} p{4.1cm} @{}}
+				\textcolor{subheader}{\textit{English}} & \textcolor{subheader}{\textit{Chinese}} & \textcolor{subheader}{\textit{German}} \\
+				Native Level & Native Level & Working Proficiency \\ 
+				\textcolor{subtitles}{Written\texttt{/}Spoken} & \textcolor{subtitles}{Written\texttt{/}Spoken} & TestDaF (TDN \texttt{4/5/4/4})
+			\end{tabular}
+		\end{center}
+	\vspace{-\parskip}
+	\subsection*{Skills}
+	\vspace{-\parskip}
+		{
+			\renewcommand{\arraystretch}{1.5}
+			\setlength{\tabcolsep}{12pt}
+			\begin{tabularx}{\textwidth}{@{} p{0.52\textwidth} p{0.41\textwidth} @{}}
+				\textcolor{skiheader}{\textit{Proficient}} & \textcolor{skiheader}{\textit{Good}} \\
+				\vspace{-1em}
+				\begin{itemize}[leftmargin=3mm]
+					\renewcommand\labelitemi{}
+					\setlength\itemsep{0.8em}
+					\item Web Design + Full Stack Development \par
+						\vspace{1mm}
+						\hspace{1em} \textcolor{gray}{Frontend} \hfill JavaScript, HTML\textcolor{Bittersweet}{5}\texttt{/}CSS\textcolor{Bittersweet}{3} \par
+						\hspace{1em} \textcolor{gray}{Backend} \hfill LAMP/Django 
+					\item \**NIX Sys Administration and Automation \par
+						\hfill \textcolor{gray}{\footnotesize \itshape shell scripting; server deployment}
+					\item Git Distributed Version Control System
+					\item Python, C++ \par % C
+						\hfill \textcolor{gray}{\footnotesize \itshape incl. data processing (gnuplot, numpy)}
+					\item Data Analysis
+					\item Document processing with{\fontfamily{cmr} \selectfont \LaTeX}
+				\end{itemize} & 
+				\vspace{-1em}
+				\begin{itemize}[leftmargin=3mm]
+					\renewcommand\labelitemi{}
+					\setlength\itemsep{0.9em}
+					\item NodeJS, C\#, VBA, and MATLAB 
+					\item Competitive Programming \par
+						\hfill \textcolor{gray}{\footnotesize \itshape incl. data structures and algorithms}
+					\item Computer Security
+					\item Signal Processing
+				\end{itemize}
+				\vspace{1cm}
+				\textcolor{skiheader}{\textit{Others}} \par
+				\vspace{1mm}
+				\hspace{2mm} Photography, Video Editing 
+			\end{tabularx}
+		}
+
+	\vspace{-\baselineskip}
+
+	% for LaTeX https://tex.stackexchange.com/a/25251
+
+\section{\textcolor{section_5}{Selected Projects}}
+\vspace{-\baselineskip}
+{
+	\renewcommand{\arraystretch}{2}
+	\renewcommand{\cellalign}{lt}
+	% \setlength{\tabcolsep}{0.3cm}
+	\begin{tabularx}{\textwidth}{@{}X p{0.20cm} r @{}}
+		\textbf{photonLauncher} \hfill \badge{python/bash} \par \urllinkout{https://github.com/sunjerry019/photonLauncher}{github.com/sunjerry019/photonLauncher} \par {\scriptsize \color{gray} Measuring the Temporal Correlation of Light from a Mercury Discharge Lamp \hfill\texttt{2016}} & & \makecell{\texttt{\large 2019} \\ \texttt{\hfill \hspace{0.1mm} $\wedge$ \hfill} \\ \texttt{\large 2014}}\\[-0.5em]
+		{\small Created equipment interfacing scripts used on Linux with \code{pyusb} and automated said scripts for repeated data acquisition. \code{numpy} and \code{gnuplot} were used to statiscally analyse collected data. Reverse \code{SSH} was utilized for remote monitoring, experimentation and extraction of data without physical access to the lab.} & & \\
+		\textbf{Luggage Tags} \hfill \badge{C++} \par \textcolor{gray}{\small Singapore Armed Forces} & & \texttt{\large 2018}\\[-1em]
+		{\small Modified \code{svg} files using \code{C++} to automate the generation of $>$ \nummer{1200} personalised luggage tags for an overseas exercise against time and manpower constraints. } & & \\
+		\textbf{The English Tuition Corner} \hfill \badge{Full Stack} \par \urllinkout{http://theenglishtuitioncorner.com}{theenglishtuitioncorner.com} & & \texttt{\large 2017}\\[-0.5em]
+		{\small Deployed a \code{Wordpress} website and email server for my teacher from a \code{LAMP} VPS. Emails were also properly authenticated with \code{DKIM} and \code{SPF}.} & & \\
+	\end{tabularx}
+}
+\vspace{-\baselineskip}
+\vspace{-0.5cm}
+
+{
+	\renewcommand{\arraystretch}{2}
+	\renewcommand{\cellalign}{lt}
+	% \setlength{\tabcolsep}{0.3cm}
+	\begin{tabularx}{\textwidth}{@{}X p{0.20cm} r @{}}
+		\textbf{SMB Redesigned} \hfill \badge{JS} \par \urllinkout{http://github.com/sunjerry019/SMB_Redesigned}{github.com/sunjerry019/SMB\_Redesigned} & & \texttt{\large 2016}\\[-0.5em]
+		{\small \code{Greasemonkey} User Script that incorporated \code{MaterializeCSS} to create a custom, better designed user interface to the school's online message board {\footnotesize (SMB)} at its original endpoints.} & & \\
+		\textbf{svg2eqn} \hfill \badge{python} \par \urllinkout{http://github.com/sunjerry019/svg2eqn}{github.com/sunjerry019/svg2eqn} & & \texttt{\large 2016}\\[-0.5em]
+		{\small \code{Python} script that converts simple \code{svg} images into parametric equations that can be plotted on a graphing calculator. Used to submit entries for a graphing calculator design competition.} & & \\
+		\textbf{CCA Website} \hfill \badge{HTML/CSS/JS} \par \urllinkout{https://github.com/sunjerry019/hci-cca-website}{github.com/sunjerry019/hci-cca-website} & & \texttt{\large 2015}\\[-0.5em]
+		{\small Volunteered to deploy an infosite to my high school server to centralise CCA information for new students.} & & 
+		% insert 24hr kayak
+	\end{tabularx}
+}
+
+
+
+\section{\textcolor{section_3}{Other Relevant Experiences}}
+\vspace{-\baselineskip}
+{
+	\renewcommand{\arraystretch}{2}
+	\renewcommand{\cellalign}{lt}
+	% \setlength{\tabcolsep}{0.3cm}
+	\begin{tabularx}{\textwidth}{@{}l p{0.20cm} X @{}}
+		% \makecell{\texttt{\large 2018 - Now} \vspace{-1mm} \\ \texttt{\footnotesize /02}} & & \textbf{SJPO Alumni Trainer} \hfill \textcolor{gray}{Hwa Chong Institution} \par \urllinkout{http://github.com/sunjerry019/physicsOlympiadNotes}{github.com/sunjerry019/physicsOlympiadNotes} \\[-0.5em]
+		% & & {\small Trained Secondary 3 and 4 juniors in the Singapore Junior Physics Olympiad {\footnotesize (SJPO)}. Went beyond the syllabus to prepare notes, questions and demonstrations to get them interested and excited about Physics beyond the scope of the Olympiad.} \\
+		% \pagebreak
+		\makecell{\texttt{\large 2017 - 2019} \vspace{-1mm} \\ \texttt{\footnotesize /02} \hspace{1.5em} \texttt{\footnotesize /02}} & & \textbf{Operations and Training Administrator} \hfill \textcolor{gray}{Army / NSF} \\[-1em]
+		& & {\small Overcame limitations of provided tools by creating and maintaining a database in Excel to manage the particulars and details of more than \nummer{1200} people, including writing periphery tools to automate the verification {\footnotesize(e.g. NRIC)} and retrieval of information from the intranet using \code{VBA} and formulae. }\\
+		% \makecell{\texttt{\large 2017 - 2017} \vspace{-1mm} \\ \texttt{\footnotesize /01} \hspace{1.5em} \texttt{\footnotesize /02}} & & \textbf{Teaching Intern} \hfill \textcolor{gray}{Physics/Maths} \par \textcolor{gray}{Queensway Secondary School {\footnotesize (QSS)}}\\[-0.5em]
+		% & & {\small Taught upper secondary express students Physics and Mathematics as an intern. Created worksheets, marked tests and kickstarted the QSS Makerspace for students to explore their interests in tinkering with things.} \\
+		\makecell{\texttt{\large 2015 - 2016} \vspace{-1mm} \\ \texttt{\footnotesize /02} \hspace{1.5em} \texttt{\footnotesize /06}} & & \textbf{Founding Member, Coding4Children} \hfill \textcolor{gray}{Volunteer} \par \textcolor{gray}{Ulu Pandan Stars {\footnotesize (UP Stars)}}\\[-0.5em]
+		& & {\small Through various mini \code{scratch} projects, taught underpriviledged primary school children coding in hopes of getting them interested in technology and learning a new and useful skill in this changing times. } \\
+		\makecell{\texttt{\large 2015 - 2016} \vspace{-1mm} \\ \texttt{\footnotesize /02} \hspace{1.5em} \texttt{\footnotesize /06}} & & \textbf{Publicity I/C, Science Student' Research Council} \par \urllinkout{https://ssrc.infocommsociety.com/}{ssrc.infocommsociety.com}  \hfill \textcolor{gray}{Physics Research}\\[-0.5em]
+		& & {\small Led a dedicated team in the promotion of Science as the overall Media and Publicity I/C for the Council and the International Science Youth Forum {\footnotesize (ISYF)}. Administered and designed both the Council and Forum Website in \texttt{\large 2016} with \code{Wordpress}. }\\
+		\makecell{\texttt{\large 2011 - 2016}} & & \textbf{Electronic Communications and Computer Club (EC\textsuperscript{3})} \hfill \par \textcolor{gray}{Vice Chairman \hspace{1em} \texttt{2014} } \hfill \textcolor{gray}{Web Developer} \\[-0.5em]
+		& & {\small Self taught most computer knowledge in this club. Developed skills and gained experience in Web Design Development and Competitive Programming. Exposed to basic computer security concepts. Represented the school in national competitions such as the Singapore Games Creation Competition {\footnotesize (SGCC)} and National Olympiad in Informatics {\footnotesize (NOI)}. }
+	\end{tabularx}
+}
+
+
+% \section{\textcolor{section_2}{Co-curricular activities}}
+% \vspace{-\baselineskip}
+% {
+% 	\renewcommand{\arraystretch}{2}
+% 	\begin{tabularx}{\textwidth}{@{}l p{0.3cm} X@{}}
+% 		% \texttt{\large 2014 - 2016} & & \textbf{Photonics Interest Group} \par\textcolor{gray}{Founding Member} \hfill \urllinkout{https://github.com/sunjerry019/photonLauncher}{github.com/sunjerry019/photonLauncher}\par {\scriptsize Measuring the Temporal Correlation of Light from a Mercury Discharge Lamp \hfill\texttt{2016}}\\[-0.5em]
+% 		% && {\small Carried out Photon Statistics experiments in the photonics lab. Created equipment interfacing scripts on Linux using \code{Python 3} with libraries such as \code{pyusb} and automated said scripts for repeated data acquisition and processing. Aggregated and analysed large datasets with \code{numpy} and \code{gnuplot}. Also enabled remote monitoring, experimentation and extraction of data without physical access to the lab through reverse \code{SSH}. } \\
+% 		\texttt{\large 2015 - 2016} & & \textbf{} \par\textcolor{gray}{ \hspace{1em} \texttt{2016}} \hfill Physics Research\par \\[-0.5em]
+% 		&&  
+% 	\end{tabularx}
+% }
+
+\section{\textcolor{section_1}{Education}}
+\vspace{-\baselineskip}
+{
+	\renewcommand{\arraystretch}{2}
+	\begin{tabularx}{\textwidth}{@{}l p{0.3cm} X@{}}
+		\texttt{\large 2015 - 2016} & & \textbf{Hwa Chong Institution (Junior College)} \par \vspace{1mm} GCE A Levels \hfill \textcolor{gray}{H2 4$\times$A's // H3 Distinction}\par \hfill \textcolor{gray}{{\scriptsize Physics, Chemistry, Maths and German} \hspace{1em} H2}\par \hfill \textcolor{gray}{{\scriptsize Linear Algebra [NUS]} \hspace{1em} H3} \\[-0.5em]
+		&& {\small Selected to pursue Physics and Maths under the Gifted and Talented Education Programme. Excelled and was awarded the Hwa Chong Diploma with Distinction upon graduation.} \\
+		\texttt{\large 2011 - 2014} & & \textbf{Hwa Chong Institution (High School)} \par Integrated Programme \hfill \textcolor{gray}{{\scriptsize Academic Mean Subject Grade} \nummer{\large 1.27}} \\[-0.5em]
+		&& {\small Physics and Biology Specialisation with German as a 3\textsuperscript{rd} Language. Graduated with the Outstanding Student Award {\footnotesize (OSA)}. }
+	\end{tabularx}
+}
+
+\end{document}
