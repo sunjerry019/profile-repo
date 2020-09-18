@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Yudong Sun</title>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300&display=swap&text=YudongS" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Lato:ital@0;1&display=swap" rel="stylesheet"> 
+		<style>
+			:root
+			{
+				--main-color: #2d3142;
+				--acnt-color: #4f5d75;
+			}
+			#wrapper
+			{
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				position: absolute;
+				top: 0; bottom: 0; left: 0; right: 0;
+				background: repeating-linear-gradient(
+					45deg,
+					var(--main-color),
+					var(--main-color) 70px,
+					var(--acnt-color) 70px,
+					var(--acnt-color) 140px
+				); /* https://css-tricks.com/stripes-css/ */
+				font-size: 1.1em;
+			}
+			#hero-element
+			{
+				text-align: center;
+				margin: 10px 5px;
+				max-width: 550px;
+				/*max-height: 650px;*/
+				padding: 10px;
+				display: inline-block;
+				/*background: rgba(255,255,255,0.75);*/
+				background: rgba(0,0,0,0.75);
+				border-radius: 15px;
+				color: white;
+			}
+			#profile
+			{
+				max-width: 250px;
+			}
+			#content p
+			{
+				font-family: "Lato", sans-serif;
+				padding-left: 10px;
+				padding-right: 10px;
+				hyphens: auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrapper">
+			<div id="hero-element">
+				<h1 style="font-family: 'Montserrat', sans-serif; font-weight: light;">Yudong Sun</h1>
+				<img id="profile" src="profile.jpg">
+				<div id="content">
+					<p>Hey, you are here probably because you saw my domain somewhere.<br>Thanks for dropping by!</p>
+					<p>I am a physicist, a programmer and generally a hands-on kinda guy. I prefer making things than just talking about them on paper.</p>
+					<p>If you have a job for me, or simply wish to contact me, feel free to email me at</p>
+					<p>>> yudong [at] outlook [dot] de <<</p>
+					<p style="font-style: italic;">This website will be ready sometime in the future.</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
+
+<!-- Barebones template https://gist.github.com/doz-snippets/3807001 -->
