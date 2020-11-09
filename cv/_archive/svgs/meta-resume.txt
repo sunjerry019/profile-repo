@@ -1,4 +1,0 @@
-InfoKey: Title
-InfoValue: Sun Yudong - Resume
-InfoKey: Author
-InfoValue: Sun Yudong

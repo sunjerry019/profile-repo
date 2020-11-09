@@ -1,3 +1,0 @@
-#!/bin/bash
-
-texliveonfly --compiler=pdflatex --arguments="-synctex=1 -interaction=nonstopmode --shell-escape" $1
