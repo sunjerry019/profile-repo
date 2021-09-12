@@ -1,10 +1,10 @@
 <?php session_start(); ?>
-<?php require 'strings.php' ?>
+<?php require_once 'include/strings.php' ?>
 <!DOCTYPE HTML>
 
 <html <?php if($lang == "zh"){ echo "class='hl_zh'"; } ?> >
     <head>
-        <title>Sun Yudong</title>
+        <title>Yudong Sun</title>
         <link href="//fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro" rel="stylesheet">
         <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css" type="text/css"/>
@@ -23,7 +23,7 @@
             <div class="center big">
                 <div id="profile-photo">
                     <div class="photoflank"></div>
-                    <img src="profile.jpg">
+                    <img src="assets/profile.jpg">
                     <div class="photoflank"></div>
                 </div>
                 <div id="name_expertise">

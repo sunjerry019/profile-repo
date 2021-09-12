@@ -1,19 +1,21 @@
 <?php
-    $supportedLanguages = [
-        'en', // first one is the default/fallback
-        'en-gb',
-        'de',
-        'de-de',
-        'de-at',
-        'de-ch',
-        'zh',
-        'zh-cn',
-        'zh-sg'
-    ];
+    require_once "include/http.php";
+
+    $supportedLanguages = array(
+        'en'    => true, // first one is the default/fallback
+        'en-gb' => true,
+        'de'    => true,
+        'de-de' => true,
+        'de-at' => true,
+        'de-ch' => true,
+        'zh'    => true,
+        'zh-cn' => true,
+        'zh-sg' => true
+    );
 
     // Returns the negotiated language
     // or the default language (i.e. first array entry) if none match.
-    $language = http\Env::negotiateLanguage($supportedLanguages, $result);
+    $language = negotiateLanguage($supportedLanguages);
 
     $lang = substr($language, 0, 2);
 
@@ -26,7 +28,7 @@
     }
 
     $en = array(
-        "name"              => "Sun Yudong",
+        "name"              => "Yudong Sun",
         "expertise"         => "Engineer, Physicist",
         "small_expertise"   => "Language Enthusiast, Photographer",
         "ptg"               => "The collection of pixels I have taken",
@@ -48,7 +50,7 @@
     );
 
     $de = array(
-        "name"              => "Sun Yudong",
+        "name"              => "Yudong Sun",
         "expertise"         => "Ingenieur, Physiker",
         "small_expertise"   => "Sprachenthusiast, Photograf",
         "ptg"               => "Eine Sammlung aus meiner Kamera",
