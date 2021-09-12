@@ -7,6 +7,7 @@
         <title>Yudong Sun</title>
         <link href="//fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro" rel="stylesheet">
         <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+        <!-- <link rel="stylesheet" href="assets/flag-icon-css-master/css/flag-icon.min.css" type="text/css"/> -->
         <link rel="stylesheet" href="include/style.css<?php echo '?v='.rand(); ?>" type="text/css"/>
         <?php 
         if($lang == "zh")
@@ -31,7 +32,9 @@
                     <span id="name"><?php echo $strings[$lang]["name"] ?></span>
                     <span id="expertise"><?php echo $strings[$lang]["expertise"] ?></span>
                     <span id="small_expertise"><?php echo $strings[$lang]["small_expertise"] ?></span>
-                    <span id="countries"><?php echo $strings[$lang]["countries"] ?></span>
+                    <span id="countries">
+                         // <?php echo $strings[$lang]["countries"] ?> //
+                    </span>
                 </div>
                 <div id="languages" class="force-en-font">
                     <a href="?hl=en">EN</a><a href="?hl=de">DE</a><a href="?hl=zh">ZH</a>

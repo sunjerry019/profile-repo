@@ -83,7 +83,7 @@ a[href^="mailto:"]:active { color: #06c; }
     #header.full span#name              { font-size: 3em; }
     #header.full span#expertise         { font-weight: 300; font-size: 1.5em; }
     #header.full span#small_expertise   { font-weight: 300; font-size: 1em; }
-    #header.full span#countries         { font-size: 1.5em; }
+    #header.full span#countries         { font-size: 1.7em; padding: 10px 0px;}
 
     #header.full #profile-photo .photoflank { height: 0px; border-top: 1px solid white; width: 10em; display: inline-block; margin: 0px 1.5em; }
 
