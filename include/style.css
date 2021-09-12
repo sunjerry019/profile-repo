@@ -80,10 +80,10 @@ a[href^="mailto:"]:active { color: #06c; }
 
 #header.full { height: 100%; position: fixed; }
     #header .center.big { flex-direction: column; }
-    #header.full span#name              { font-size: 3em; }
+    #header.full span#name              { font-size: 3em; padding: 10px 0px;}
     #header.full span#expertise         { font-weight: 300; font-size: 1.5em; }
     #header.full span#small_expertise   { font-weight: 300; font-size: 1em; }
-    #header.full span#countries         { font-size: 1.7em; padding: 10px 0px;}
+    #header.full span#countries         { font-size: 1.7em; padding: 15px 0px;}
 
     #header.full #profile-photo .photoflank { height: 0px; border-top: 1px solid white; width: 10em; display: inline-block; margin: 0px 1.5em; }
 
@@ -118,8 +118,6 @@ a[href^="mailto:"]:active { color: #06c; }
 #body table tr td:nth-child(2n-1)           { font-weight: 300; padding-right: 2em; vertical-align: text-top;}
 .hl_zh #body table tr td:nth-child(2n-1)    { font-weight: 700; }
 #body .bulk { margin: 0px 20px; }
-
-#body #personal_info #dob_place { display: block; font-size-adjust: 0.4; }
 
 /* Themeing */
 #body #skills_and_abilities h2 { border-left-color: #90c; }

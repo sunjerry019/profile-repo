@@ -51,38 +51,13 @@
         </div>
 
         <div id="body">
-            <div id="personal_info" class="bulk">
-                <h2><?php echo $strings[$lang]["personal_info"] ?></h2>
+            <div id="projects" class="bulk">
+                <h2><?php echo $strings[$lang]["projects"] ?></h2>
                 <div class="content">
-                    <table>
-                        <tr>
-                            <td><?php echo $strings[$lang]["name_label"] ?></td>
-                            <td><?php echo $strings[$lang]["name_2"] ?></td>
-                        </tr>
-                        <tr>
-                            <td><?php echo $strings[$lang]["dob_label"] ?></td>
-                            <td><?php echo $strings[$lang]["dob"] ?>
-                                <span id="dob_place"><?php echo $strings[$lang]["dob_place"] ?></span>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td><?php echo $strings[$lang]["nationality_label"] ?></td>
-                            <td><?php echo $strings[$lang]["nationality"] ?></td>
-                        </tr>
-                        <tr>
-                            <td><?php echo $strings[$lang]["email_label"] ?></td>
-                            <td><?php echo $strings[$lang]["email"] ?></td>
-                        </tr>
-                    </table>
+                    <div class="project">
                 </div>
             </div>
             
-            <div id="skills_and_abilities" class="bulk">
-                <h2><?php echo $strings[$lang]["sk_and_ab"] ?></h2>
-                <div class="content">
-                    
-                </div>
-            </div>
             <!-- next section goes here -->
         </div>
     </body>
