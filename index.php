@@ -1,5 +1,5 @@
 <?php session_start(); ?>
-<?php require_once 'include/strings.php' ?>
+<?php require_once 'include/strings.php'; ?>
 <!DOCTYPE HTML>
 
 <html <?php if($lang == "zh"){ echo "class='hl_zh'"; } ?> >
@@ -7,7 +7,7 @@
         <title>Yudong Sun</title>
         <link href="//fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro" rel="stylesheet">
         <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-        <link rel="stylesheet" href="include/style.css" type="text/css"/>
+        <link rel="stylesheet" href="include/style.css<?php echo '?v='.rand(); ?>" type="text/css"/>
         <?php 
         if($lang == "zh")
         { 
@@ -17,6 +17,7 @@
         ?>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="include/script.js"></script>
+        <meta charset="utf-8"/>
     </head>
     <body>
         <div id="header" class="full">
