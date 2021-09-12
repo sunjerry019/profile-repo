@@ -35,7 +35,7 @@
                     <a href="?hl=en">EN</a><a href="?hl=de">DE</a><a href="?hl=zh">ZH</a>
                 </div>
                 <div id="linkbuttons">
-                    <a href="./ptg/" title="<?php echo $strings[$lang]['ptg'] ?>"><i class="fas fa-camera"></i></a>
+                    <a href="//www.linkedin.com/in/sunjerry019/" title="<?php echo $strings[$lang]['linkedin'] ?>"><i class="fab fa-linkedin-in"></i></a>
                     <a href="?expand" id="linkbtn_expand" title="<?php echo $strings[$lang]['about_me'] ?>">
                         <span><?php echo $strings[$lang]["about_me"] ?></span>
                         <i class="fas fa-chevron-down"></i>

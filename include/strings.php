@@ -29,9 +29,9 @@
 
     $en = array(
         "name"              => "Yudong Sun",
-        "expertise"         => "Engineer, Physicist",
+        "expertise"         => "Physicist, Developer",
         "small_expertise"   => "Language Enthusiast, Photographer",
-        "ptg"               => "The collection of pixels I have taken",
+        "linkedin"          => "My LinkedIn Page",
         "about_me"          => "About Me",
         "github"            => "My GitHub Page",
 
@@ -51,9 +51,9 @@
 
     $de = array(
         "name"              => "Yudong Sun",
-        "expertise"         => "Ingenieur, Physiker",
+        "expertise"         => "Physiker, Softwarentwickler",
         "small_expertise"   => "Sprachenthusiast, Photograf",
-        "ptg"               => "Eine Sammlung aus meiner Kamera",
+        "linkedin"          => "My LinkedIn Page",
         "about_me"          => "Über Mich",
         "github"            => "Meine GitHub Seite",
 
@@ -73,9 +73,9 @@
 
     $zh = array(
         "name"              => "孙毓栋",
-        "expertise"         => "工程师, 物理学家",
+        "expertise"         => "物理学家、编码员",
         "small_expertise"   => "语言、摄影爱好者",
-        "ptg"               => "我拍的一些照片",
+        "linkedin"          => "我的领英",
         "about_me"          => "我的简历",
         "github"            => "我的GitHub页面",
 
