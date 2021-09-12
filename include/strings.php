@@ -31,6 +31,9 @@
         "name"              => "Yudong Sun",
         "expertise"         => "Physicist, Developer",
         "small_expertise"   => "Language Enthusiast, Photographer",
+        "countries"         => "Singapore / Germany",
+
+
         "linkedin"          => "My LinkedIn Page",
         "about_me"          => "About Me",
         "github"            => "My GitHub Page",
@@ -53,7 +56,9 @@
         "name"              => "Yudong Sun",
         "expertise"         => "Physiker, Softwarentwickler",
         "small_expertise"   => "Sprachenthusiast, Photograf",
-        "linkedin"          => "My LinkedIn Page",
+        "countries"         => "Singapur / Deutschland",
+
+        "linkedin"          => "Meine LinkedIn Seite",
         "about_me"          => "Über Mich",
         "github"            => "Meine GitHub Seite",
 
@@ -75,6 +80,8 @@
         "name"              => "孙毓栋",
         "expertise"         => "物理学家、编码员",
         "small_expertise"   => "语言、摄影爱好者",
+        "countries"         => "新加坡 / 德国",
+
         "linkedin"          => "我的领英",
         "about_me"          => "我的简历",
         "github"            => "我的GitHub页面",
