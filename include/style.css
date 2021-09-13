@@ -1,6 +1,7 @@
 /* Root/Colors */
 :root {
     --link-color: #006080;
+    --link-active-color: #600080;
     --project-title: #800020;
 }
 
@@ -138,10 +139,9 @@ a[href^="mailto:"]:active { color: #06c; }
 #body #projects .content .project .project_name { font-family: 'Roboto-Mono', monospace; display: inline-block; margin-right: 10px; color: var(--project-title); }
 #body #projects .content .project .project_link { display: inline-block; }
 #body #projects .content .project .project_link a
-    { display: inline-block; transition: all 200ms ease; -webkit-transition: all 200ms ease; font-family: "Source Sans Pro", sans-serif; }
-#body #projects .content .project .project_link a:link, 
-#body #projects .content .project .project_link a:active, 
-#body #projects .content .project .project_link a:link 
+    { display: inline-block; transition: all 150ms ease; -webkit-transition: all 150ms ease; font-family: "Source Sans Pro", sans-serif; }
+#body #projects .content .project .project_link a:link,  
+#body #projects .content .project .project_link a:visited 
 { 
     color: var(--link-color); 
     text-decoration: none; 
@@ -151,8 +151,8 @@ a[href^="mailto:"]:active { color: #06c; }
     background-repeat: no-repeat;
     padding-bottom: 2px;
 }
-#body #projects .content .project .project_link a:hover
-    { background-size: 100% 1.5px; }
+#body #projects .content .project .project_link a:hover  { background-size: 100% 1.5px; }
+#body #projects .content .project .project_link a:active { background-size: 100% 1.5px; background-image: linear-gradient(var(--link-active-color), var(--link-active-color)); color: var(--link-active-color); }
 #body #projects .content .project .project_desc { text-align: justify; word-wrap: break-word; hyphens: auto; }
 
 

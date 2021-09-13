@@ -62,9 +62,9 @@
                         <div class="project_desc"><?php echo $strings["nanosquared"][$lang] ?></div>
                     </div>
                     <div class="project">
-                        <div class="project_name">nanosquared</div>
-                        <div class="project_link"><a href="//github.com/sunjerry019/nanosquared">github.com/nanosquared</a></div>
-                        <div class="project_desc"><?php echo $strings["nanosquared"][$lang] ?></div>
+                        <div class="project_name">photonLauncher</div>
+                        <div class="project_link"><a href="//github.com/sunjerry019/photonLauncher">github.com/photonLauncher</a></div>
+                        <div class="project_desc"><?php echo $strings["photonLauncher"][$lang] ?></div>
                     </div>
                 </div>
             </div>
