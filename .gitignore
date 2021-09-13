@@ -2,6 +2,7 @@
 *.ignore
 ddns.sh
 *.~lock.*
+*.fuse_hidden*
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
