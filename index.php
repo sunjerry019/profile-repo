@@ -53,6 +53,10 @@
         </div>
 
         <div id="body">
+            <div id="welcome">
+                <h1><?php echo $strings["welcome_header"][$lang] ?></h1>
+                <p><?php echo $strings["welcome"][$lang] ?></p>
+            </div>
             <div id="projects" class="bulk">
                 <h2><?php echo $strings["projects"][$lang] ?></h2>
                 <div class="content">
@@ -66,6 +70,12 @@
                         <div class="project_link"><a href="//github.com/sunjerry019/photonLauncher">github.com/photonLauncher</a></div>
                         <div class="project_desc"><?php echo $strings["photonLauncher"][$lang] ?></div>
                     </div>
+                </div>
+            </div>
+            <div id="contact" class="bulk">
+                <h2><?php echo $strings["contact"][$lang] ?></h2>
+                <div class="content">
+                   
                 </div>
             </div>
             
