@@ -1,6 +1,7 @@
 # User
 *.ignore
 ddns.sh
+*.~lock.*
 
 ## Core latex/pdflatex auxiliary files:
 *.aux
