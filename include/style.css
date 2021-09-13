@@ -129,7 +129,7 @@ a[href^="mailto:"]:active { color: #06c; }
 #body #projects .content                        { display: flex; flex-flow: column wrap; }
 #body #projects .content .project               { 
     max-width: 480px; 
-    margin: 20px 0px; 
+    margin: 15px 0px; 
     display: flex; 
     flex-flow: row wrap;
     justify-content: space-between;
@@ -138,13 +138,22 @@ a[href^="mailto:"]:active { color: #06c; }
 #body #projects .content .project .project_name { font-family: 'Roboto-Mono', monospace; display: inline-block; margin-right: 10px; color: var(--project-title); }
 #body #projects .content .project .project_link { display: inline-block; }
 #body #projects .content .project .project_link a
-    { display: inline-block; transition: all 200ms ease; -webkit-transition: all 200ms ease; }
+    { display: inline-block; transition: all 200ms ease; -webkit-transition: all 200ms ease; font-family: "Source Sans Pro", sans-serif; }
 #body #projects .content .project .project_link a:link, 
 #body #projects .content .project .project_link a:active, 
 #body #projects .content .project .project_link a:link 
-    { color: var(--link-color); text-decoration: none; border-bottom: 2px solid white; }
+{ 
+    color: var(--link-color); 
+    text-decoration: none; 
+    background-image: linear-gradient(var(--link-color), var(--link-color));
+    background-size: 0% 1.5px;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    padding-bottom: 2px;
+}
 #body #projects .content .project .project_link a:hover
-    { border-bottom-color: var(--link-color); }
+    { background-size: 100% 1.5px; }
+#body #projects .content .project .project_desc { text-align: justify; word-wrap: break-word; hyphens: auto; }
 
 
 /* Themeing */
