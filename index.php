@@ -83,7 +83,7 @@
         </div>
 
         <div id="footer">
-            <div id="copyright">&copy 2021, Yudong Sun</div>
+            <div id="copyright">&copy <?php echo date("Y"); ?>, Yudong Sun</div>
             <div id="made_with">
                 <span id="f_runs_on">Runs on PHP, <a id="f_fa" href="//fontawesome.com/">fontawesome</a> and love</span>
                 <span id="progress-pride-flag"></span>

@@ -140,6 +140,7 @@ function toggleHeader(override)
         // console.log(autoHeight);
 
         $("#header .center").removeClass("loaded");
+        $("#footer").removeClass("full");
         $("#header").height(curheight).height(autoHeight).delay(600).promise().done(function(e)
         {
             // console.log("height changed");
@@ -165,6 +166,7 @@ function toggleHeader(override)
         // console.log(autoHeight);
 
         $("#header .center").removeClass("small");
+        $("#footer").addClass("full");
         $("#header").height(curheight).height(autoHeight).delay(600).promise().done(function(e)
         {
             // console.log("height changed");
