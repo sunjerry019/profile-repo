@@ -27,49 +27,16 @@
         $_SESSION["hl"] = $lang;
     }
 
-    $en = array(
-        "name"              => "Yudong Sun",
-        "expertise"         => "Physicist, Developer",
-        "small_expertise"   => "Language Enthusiast, Photographer",
-        "countries"         => "Singapore / Germany",
+    // Retrive strings
+    $file = "include/strings.csv";
+    $csv = array_map('str_getcsv', file($file));
+    $strings = array();
 
+    foreach ($csv as $key => $a) {
+        $a = array_combine($csv[0], $a);
+        $_key = array_shift($a); # get the actual key
+        $strings[$_key] = $a;
+    };
 
-        "linkedin"          => "My LinkedIn Page",
-        "about_me"          => "About Me",
-        "github"            => "My GitHub Page",
-
-        "projects"          => "Projects",
-    );
-
-    $de = array(
-        "name"              => "Yudong Sun",
-        "expertise"         => "Physiker, Softwarentwickler",
-        "small_expertise"   => "Sprachenthusiast, Photograf",
-        "countries"         => "Singapur / Deutschland",
-
-        "linkedin"          => "Meine LinkedIn Seite",
-        "about_me"          => "Über Mich",
-        "github"            => "Meine GitHub Seite",
-
-        "projects"          => "Projekte",
-    );
-
-    $zh = array(
-        "name"              => "孙毓栋",
-        "expertise"         => "物理学家、编码员",
-        "small_expertise"   => "语言、摄影爱好者",
-        "countries"         => "新加坡 / 德国",
-
-        "linkedin"          => "我的领英",
-        "about_me"          => "我的简历",
-        "github"            => "我的GitHub页面",
-
-        "projects"          => "我做过的项目",
-    );
-
-    $strings = array(
-        "en"                => $en,
-        "de"                => $de,
-        "zh"                => $zh
-    );
+    // $string has the form: $string[key][lang]
 ?>
