@@ -27,7 +27,7 @@
             <div class="center big">
                 <div id="profile-photo">
                     <div class="photoflank"></div>
-                    <img src="assets/profile.jpg">
+                    <img alt="Picture of me" src="assets/profile.jpg">
                     <div class="photoflank"></div>
                 </div>
                 <div id="name_expertise">
