@@ -1,10 +1,16 @@
+/* Root/Colors */
+:root {
+    --link-color: #006080;
+    --project-title: #800020;
+}
+
 /* Main */
 body            { font-family: "Source Sans Pro"; margin: 0px; }
 .center         { display: flex; justify-content: center; align-items: center; width: 100%; height: 100%; }
 .force-en-font  { font-family: "Source Sans Pro"; }
 .mono           { font-family: "Roboto Mono"; font-size: smaller; /* font-size-adjust: 0.45; */ }
 
-a[href^="mailto:"]:link, a[href^="mailto:"]:visited { color: #09c; text-decoration: none;}
+a[href^="mailto:"]:link, a[href^="mailto:"]:visited { color: #09c; text-decoration: none; }
 a[href^="mailto:"]:hover { color: #006080; }
 a[href^="mailto:"]:active { color: #06c; }
 
@@ -119,5 +125,27 @@ a[href^="mailto:"]:active { color: #06c; }
 .hl_zh #body table tr td:nth-child(2n-1)    { font-weight: 700; }
 #body .bulk { margin: 0px 20px; }
 
+/* Projects */
+#body #projects .content                        { display: flex; flex-flow: column wrap; }
+#body #projects .content .project               { 
+    max-width: 480px; 
+    margin: 20px 0px; 
+    display: flex; 
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+#body #projects .content .project:first-child   { margin-top: 0px; }
+#body #projects .content .project .project_name { font-family: 'Roboto-Mono', monospace; display: inline-block; margin-right: 10px; color: var(--project-title); }
+#body #projects .content .project .project_link { display: inline-block; }
+#body #projects .content .project .project_link a
+    { display: inline-block; transition: all 200ms ease; -webkit-transition: all 200ms ease; }
+#body #projects .content .project .project_link a:link, 
+#body #projects .content .project .project_link a:active, 
+#body #projects .content .project .project_link a:link 
+    { color: var(--link-color); text-decoration: none; border-bottom: 2px solid white; }
+#body #projects .content .project .project_link a:hover
+    { border-bottom-color: var(--link-color); }
+
+
 /* Themeing */
-#body #skills_and_abilities h2 { border-left-color: #90c; }
+#body h2:nth-child(2n) { border-left-color: #90c; }

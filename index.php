@@ -4,6 +4,9 @@
 
 <html <?php if($lang == "zh"){ echo "class='hl_zh'"; } ?> >
     <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <title><?php echo $strings["name"][$lang] ?></title>
         <link href="//fonts.googleapis.com/css?family=Roboto+Mono|Source+Sans+Pro" rel="stylesheet">
         <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -18,7 +21,6 @@
         ?>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script src="include/script.js"></script>
-        <meta charset="utf-8"/>
     </head>
     <body>
         <div id="header" class="full">
@@ -55,6 +57,15 @@
                 <h2><?php echo $strings["projects"][$lang] ?></h2>
                 <div class="content">
                     <div class="project">
+                        <div class="project_name">nanosquared</div>
+                        <div class="project_link"><a href="//github.com/sunjerry019/nanosquared">github.com/nanosquared</a></div>
+                        <div class="project_desc"><?php echo $strings["nanosquared"][$lang] ?></div>
+                    </div>
+                    <div class="project">
+                        <div class="project_name">nanosquared</div>
+                        <div class="project_link"><a href="//github.com/sunjerry019/nanosquared">github.com/nanosquared</a></div>
+                        <div class="project_desc"><?php echo $strings["nanosquared"][$lang] ?></div>
+                    </div>
                 </div>
             </div>
             
