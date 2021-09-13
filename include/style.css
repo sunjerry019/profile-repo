@@ -160,3 +160,31 @@ a[href^="mailto:"]:active { color: #06c; }
 
 /* Themeing */
 #body .bulk:nth-child(2n) h2 { border-left-color: #90c; }
+
+/* Footer */
+#footer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    position: absolute;
+    bottom: 0; left: 0; right: 0;
+    background-color: #262626;
+    color: #eee;
+    padding: 10px 5px;
+    font-size: 0.8em;
+}
+#footer a { color: #fff; text-decoration: none; transition: all 150ms ease; -webkit-transition: all 150ms ease; }
+#footer a:link, #footer a:visited
+    { background-image: linear-gradient(#fff, #fff); background-size: 0% 1.5px; background-position: left bottom; background-repeat: no-repeat; padding-bottom: 2px; }
+#footer a:hover, #footer a:active { background-size: 100% 1.5px; }
+#footer a:active                  { background-image: linear-gradient(#ddd, #ddd); color: #ddd; }
+#footer div { display: flex; margin: 0px 10px; align-items: center;}
+#footer #progress-pride-flag {
+    background-image: url(../assets/progress_pride.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 2.5ex;
+    width: calc(2.5ex * (512/325));
+    display: inline-block;
+    margin-left: 10px;
+}
