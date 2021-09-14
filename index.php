@@ -51,7 +51,7 @@
                 </div>
             </div>
         </div>
-
+        
         <div id="body">
             <div id="welcome">
                 <h1><?php echo $strings["welcome_header"][$lang] ?></h1>
