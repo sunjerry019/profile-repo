@@ -50,6 +50,12 @@ $(document).ready(function(){
         window.location.href = urlget.update(lang);
     });
 
+    $("#body .bulk h2").click(function(e){
+        e.stopPropagation();
+        parent = $(this).parent()[0];
+        window.location.href = "#" + parent.id;
+    });
+
 });
 
 var urlget =

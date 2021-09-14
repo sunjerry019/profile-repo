@@ -3,6 +3,8 @@
     --link-color: #006080;
     --link-active-color: #600080;
     --project-title: #800020;
+    --header-bg: #89cff0;
+    --header-bg-2: #f0899c;
 }
 
 /* Main */
@@ -119,7 +121,6 @@ a[href^="mailto:"]:active { color: #06c; }
 
 /* Main Body */
 #body                                       { padding: 0px 20px; display: flex; flex-wrap: wrap; justify-content: center; align-items: flex-start;}
-#body h2                                    { font-weight: 300; border-left: 5px solid #09c; padding-left: 10px; margin-left: -15px; }
 #body table                                 { border-collapse: collapse; outline: none; }
 #body table tr                              { outline: none; }
 #body table tr td                           { outline: none; }
@@ -160,7 +161,22 @@ a[href^="mailto:"]:active { color: #06c; }
 
 
 /* Themeing */
-#body .bulk:nth-child(2n) h2 { border-left-color: #90c; }
+#body .bulk h2  { 
+    font-weight: 300; 
+    background-image: linear-gradient(var(--header-bg), var(--header-bg)); 
+    background-size: 0% 2.5ex; 
+    display: inline-block; 
+    background-position: left bottom; 
+    background-repeat: no-repeat; 
+    transition: all 200ms ease; 
+    -webkit-transition: all 200ms ease; 
+    padding-right: 15px; 
+    margin-left: -15px;
+}
+#body .bulk h2:before { content: ""; display: inline-block; position: relative; left: 0px; background-color: var(--header-bg); width: 5px; height: 2.5ex; vertical-align: bottom; margin-right: 10px; } 
+#body .bulk h2:hover  { background-size: 100% 2.5ex; cursor: pointer; }
+#body .bulk:nth-child(2n+1) h2 { background-image: linear-gradient(var(--header-bg-2), var(--header-bg-2)); }
+#body .bulk:nth-child(2n+1) h2:before { background-color: var(--header-bg-2); }
 
 /* Footer */
 #footer {
