@@ -75,7 +75,17 @@
             <div id="contact" class="bulk">
                 <h2><?php echo $strings["contact"][$lang] ?></h2>
                 <div class="content">
-                   
+                    <table>
+                        <tr>
+                            <td><?php echo $strings["email"][$lang] ?></td>
+                            <td>yudong.sun [at] physik.uni-muenchen.de</td>
+                        </tr>
+                    </table>
+                    <div id="socials">
+                        <a href="//www.facebook.com/yudongsun019/"><i class="fab fa-facebook-square"></i></a>
+                        <a href="//www.linkedin.com/in/sunjerry019/"><i class="fab fa-linkedin"></i></a>
+                        <a href="//github.com/sunjerry019"><i class="fab fa-github-square"></i></a>
+                    </div>
                 </div>
             </div>
             
