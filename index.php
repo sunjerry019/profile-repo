@@ -51,7 +51,7 @@
                 </div>
             </div>
         </div>
-        
+
         <div id="body">
             <div id="welcome">
                 <h1><?php echo $strings["welcome_header"][$lang] ?></h1>
@@ -68,7 +68,19 @@
                     <div class="project">
                         <div class="project_name">photonLauncher</div>
                         <div class="project_link"><a href="//github.com/sunjerry019/photonLauncher">github.com/photonLauncher</a></div>
-                        <div class="project_desc"><?php echo $strings["photonLauncher"][$lang] ?></div>
+                        <div class="project_desc"><?php echo $strings["photonLauncher"][$lang] ?>
+                            <p>Poster: <i>"Measuring Temporal Coherence of Light from a Mercury Vapour Lamp"</i> (Institute of Physics Singapore Meeting, 2016)</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project_name">onecorpsec</div>
+                        <div class="project_link"><a href="//github.com/sunjerry019/onecorpsec">github.com/onecorpsec</a></div>
+                        <div class="project_desc"><?php echo $strings["onecorpsec"][$lang] ?></div>
+                    </div>
+                    <div class="project">
+                        <div class="project_name">LatexBot</div>
+                        <div class="project_link"><a href="//github.com/sunjerry019/LatexBot">github.com/LatexBot</a></div>
+                        <div class="project_desc"><?php echo $strings["LatexBot"][$lang] ?></div>
                     </div>
                 </div>
             </div>
