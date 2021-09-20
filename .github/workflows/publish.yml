@@ -1,0 +1,35 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Deploy to Server
+
+# Controls when the workflow will run
+on:
+  # Triggers the workflow on push on the master branch
+  # This means that merged pull-requests will trigger the action
+  push:
+    branches: [ master ]
+env:
+  DEPLOY_PATH: /srv/http/yudong.dev/profile
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  deploy:
+    name: Deploy
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+      - uses: actions/checkout@v2
+
+      # SSH into server and deploy
+      - name: SSH and Deploy
+        uses: kevin-leptons/ssh_action@v1
+        with:
+          # URI refers to remote host like `user@host`
+          host: ${{ secrets.SSH_HOST_URI }}
+          # Private SSH key to authenticate
+          key:  ${{ secrets.SSH_PRIV_KEY }}
+          # Command to execute, Bash syntax
+          command: cd ${{ env.DEPLOY_PATH }} && git checkout master && git pull
