@@ -74,13 +74,12 @@ a[href^="mailto:"]:active { color: #06c; }
 #linkbuttons a:hover                { background-color: white; color: #454545; }
 
 @media screen and (max-width: 560px) { 
-    #header .center.small #linkbuttons { font-size: 2vw; }
-    #header .center.small #languages   { display: flex; flex-flow: row; justify-content: flex-end; padding-right: 10px; } 
-    #header .center.small #header-right { flex-flow: column; }
+    #header .center.small #linkbuttons { font-size: 2vw; display: flex; flex-flow: column; align-items: center; }
+    #header .center.small #linkbuttons #linkbtn_expand { margin: 5px 0px; }
 }
 
-@media screen and (max-width: 500px) {
-    #header .center.small { display: flex; flex-flow: column; align-items: flex-start; }
+@media screen and (max-width: 400px) {
+    #header .center.small #name_expertise   { font-size: 3.5vw; } 
 }
 
 /* Full Header */

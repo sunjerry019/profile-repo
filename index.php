@@ -36,7 +36,7 @@
                         <span id="expertise"><?php echo $strings["expertise"][$lang] ?></span>
                         <span id="small_expertise"><?php echo $strings["small_expertise"][$lang] ?></span>
                         <span id="countries">
-                             // <?php echo $strings["countries"][$lang] ?> //
+                             //&nbsp;<?php echo $strings["countries"][$lang] ?>&nbsp;//
                         </span>
                     </div>
                 </div>
