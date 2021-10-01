@@ -61,7 +61,10 @@ a[href^="mailto:"]:active { color: #06c; }
 #header .center.small #languages a          { display: block; margin-left: 10px; color : #777; transition: all 100ms ease; }
 #header .center.small #languages a:hover    { background-color: none;  color: white; }
 
-/* Link Buttons */
+#header .center.small #header-left  { display: flex; flex-flow: row; justify-content: flex-start; align-items: center; }
+#header .center.small #header-right { display: flex; flex-flow: row; justify-content: flex-end; align-items: center; }
+
+/* Header > Link Buttons */
 #linkbuttons                        { display: flex; width: 100%; margin-top: 10px; justify-content: center; align-items: center; }
 #header .center.small #linkbuttons  { justify-content: flex-end; align-items: flex-end; }
 
@@ -70,6 +73,14 @@ a[href^="mailto:"]:active { color: #06c; }
 #linkbuttons a#linkbtn_expand span  { font-size: 0.5em; }
 #linkbuttons a:hover                { background-color: white; color: #454545; }
 
+@media screen and (max-width: 560px) { 
+    #header .center.small #linkbuttons { font-size: 2vw; display: flex; flex-flow: column; align-items: center; }
+    #header .center.small #linkbuttons #linkbtn_expand { margin: 5px 0px; }
+}
+
+@media screen and (max-width: 400px) {
+    #header .center.small #name_expertise   { font-size: 3.5vw; } 
+}
 
 /* Full Header */
 #header span
