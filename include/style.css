@@ -7,6 +7,7 @@
     --header-bg-2: #acddf4;
     --header-bg-3: #d2e488;
     --header-bg-4: #dda9ce;
+    --affil-bg: rgb(99, 99, 99);
 }
 
 /* Main */
@@ -180,6 +181,12 @@ a[href^="mailto:"]:active { color: #06c; }
 #body #projects .content .project .project_link { display: inline-block; }
 
 #body #projects .content .project .project_desc { text-align: justify; word-wrap: break-word; hyphens: auto; width: 100% }
+
+/* Scientific Works */
+#scientific_works .content .sciwork { display: flex; flex-flow: column; }
+#scientific_works .content .sciwork .sciwork_type { font-size: smaller; margin-bottom: 10px; }
+#scientific_works .content .sciwork .sciwork_desc { hyphens: auto; }
+#scientific_works .content .sciwork .sciwork_desc .affiliation { font-weight: bold; font-size: smaller; background-color: var(--affil-bg); color: white; display: inline-block; padding: 2px 5px; margin-right: 5px; }
 
 /* Contact */
 #contact #socials { font-size: 2em; padding: 5px; }
