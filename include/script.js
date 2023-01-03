@@ -27,10 +27,32 @@ Array.prototype.clean = function(deleteValue) {
   return this;
 };
 
+var threshold_height = 510;
+var top_bottom_padding = 40;
+var threshold_width = 480;
+var left_right_padding = 40;
+function resizeHeader() {
+    if (!expanded) {
+        wh = $(window).height();
+        ww = $(window).width();
+        if (wh <= threshold_height || ww <= threshold_width) {
+            scale_height = (wh - top_bottom_padding)/(threshold_height - top_bottom_padding);
+            scale_width  = (ww - left_right_padding)/(threshold_width - left_right_padding);
+
+            $("#header-wrap").css("transform", "scale(" + Math.min(scale_height, scale_width) + ")");
+        }
+    }
+    else {
+        $("#header-wrap").css("transform", "");
+    }
+}
+
 var transitionEvent = whichTransitionEvent();
 var expanded = false;
 
 $(document).ready(function(){
+    resizeHeader();
+
     $("#header .center").addClass("loaded");
 
     if(urlget.para("expand") == true) toggleHeader(true); // so that "0" will be evaluated as false
@@ -56,6 +78,8 @@ $(document).ready(function(){
         window.location.href = "#" + parent.id;
     });
 
+    
+    $(window).resize(resizeHeader);
 });
 
 var urlget =
@@ -64,7 +88,7 @@ var urlget =
     {
         var result = null, tmp = [];
         location.search
-            .substr(1)
+            .substring(1)
             .split("&")
             .forEach(function (item) {
               tmp = item.split("=");
@@ -109,7 +133,7 @@ var urlget =
     remove : function(parameterName)
     {
         var url = window.location.origin + window.location.pathname;
-        var currentGets = window.location.search.substr(1).split("&");
+        var currentGets = window.location.search.substring(1).split("&");
         var found = false;
 
         for(i = 0; i < currentGets.length; i++)
@@ -184,6 +208,7 @@ function toggleHeader(override)
         // console.log("small to big");
         history.pushState({ expanded: false }, "De-expand About Me", urlget.remove("expand"));
     }
+    resizeHeader();
 }
 
 /*var el = $('#header'),

@@ -49,6 +49,10 @@ a[href^="mailto:"]:active { color: #06c; }
 
 #header a:link, #header a:visited, #header a:hover, #header a:active { color: white; text-decoration: none; }
 
+/* HEADER WRAP */
+#header .center #header-wrap { display: inherit;}
+#header .center.big #header-wrap { display: block; }
+
 /* SMALL HEADER */
 #header .center.small                               { opacity: 1; background-color: rgba(0,0,0,0.7); -webkit-transition: all 500ms ease; transition: all 500ms ease; }
 #header .center.small #linkbtn_expand span          { display: none; }
