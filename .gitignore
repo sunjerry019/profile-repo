@@ -3,6 +3,7 @@
 ddns.sh
 *.~lock.*
 *.fuse_hidden*
+.DS_Store
 
 ## Core latex/pdflatex auxiliary files:
 *.aux

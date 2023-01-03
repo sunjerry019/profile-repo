@@ -73,7 +73,7 @@
                         <div class="project_name">photonLauncher</div>
                         <div class="project_link"><a href="//github.com/sunjerry019/photonLauncher">github.com/photonLauncher</a></div>
                         <div class="project_desc"><?php echo $strings["photonLauncher"][$lang] ?>
-                            <p>Poster: <i>"Measuring Temporal Coherence of Light from a Mercury Vapour Lamp"</i> (Institute of Physics Singapore Meeting, 2016)</p>
+                            <p>Poster: <i>"<a href='/attachments/pst-2016-Lor, Choong, Sun, Lee.pdf' title="Poster: Measuring Temporal Coherence of Light from a Mercury Vapour Lamp, 2016">Measuring Temporal Coherence of Light from a Mercury Vapour Lamp</a>"</i> (Institute of Physics Singapore Meeting, 2016)</p>
                         </div>
                     </div>
                     <div class="project">
