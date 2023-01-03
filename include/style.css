@@ -184,7 +184,10 @@ a[href^="mailto:"]:active { color: #06c; }
 
 /* Scientific Works */
 #scientific_works .content .sciwork { display: flex; flex-flow: column; }
-#scientific_works .content .sciwork .sciwork_type { font-size: smaller; margin-bottom: 10px; }
+#scientific_works .content .sciwork .sciwork_type { font-size: smaller; margin-bottom: 10px;}
+#scientific_works .content .sciwork .sciwork_type .sciwork_year { margin-left: 10px; }
+#scientific_works .content .sciwork .sciwork_type .sciwork_year:before {content: "[";}
+#scientific_works .content .sciwork .sciwork_type .sciwork_year:after  {content: "]";}
 #scientific_works .content .sciwork .sciwork_desc { hyphens: auto; }
 #scientific_works .content .sciwork .sciwork_desc .affiliation { font-weight: bold; font-size: smaller; background-color: var(--affil-bg); color: white; display: inline-block; padding: 2px 5px; margin-right: 5px; }
 
