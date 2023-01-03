@@ -25,32 +25,34 @@
     <body>
         <div id="header" class="full">
             <div class="center big">
-                <div id="header-left">
-                    <div id="profile-photo">
-                        <div class="photoflank"></div>
-                        <img alt="Picture of me" src="assets/profile.jpg">
-                        <div class="photoflank"></div>
+                <div id="header-wrap">
+                    <div id="header-left">
+                        <div id="profile-photo">
+                            <div class="photoflank"></div>
+                            <img alt="Picture of me" src="assets/profile.jpg">
+                            <div class="photoflank"></div>
+                        </div>
+                        <div id="name_expertise">
+                            <span id="name"><?php echo $strings["name"][$lang] ?></span>
+                            <span id="expertise"><?php echo $strings["expertise"][$lang] ?></span>
+                            <span id="small_expertise"><?php echo $strings["small_expertise"][$lang] ?></span>
+                            <span id="countries">
+                                //&nbsp;<?php echo $strings["countries"][$lang] ?>&nbsp;//
+                            </span>
+                        </div>
                     </div>
-                    <div id="name_expertise">
-                        <span id="name"><?php echo $strings["name"][$lang] ?></span>
-                        <span id="expertise"><?php echo $strings["expertise"][$lang] ?></span>
-                        <span id="small_expertise"><?php echo $strings["small_expertise"][$lang] ?></span>
-                        <span id="countries">
-                             //&nbsp;<?php echo $strings["countries"][$lang] ?>&nbsp;//
-                        </span>
-                    </div>
-                </div>
-                <div id="header-right">
-                    <div id="languages" class="force-en-font">
-                        <a href="?hl=en">EN</a><a href="?hl=de">DE</a><a href="?hl=zh">ZH</a>
-                    </div>
-                    <div id="linkbuttons">
-                        <a href="//www.linkedin.com/in/sunjerry019/" title="<?php echo $strings['linkedin'][$lang] ?>"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="?expand" id="linkbtn_expand" title="<?php echo $strings['about_me'][$lang] ?>">
-                            <span><?php echo $strings["about_me"][$lang] ?></span>
-                            <i class="fas fa-chevron-down"></i>
-                        </a>
-                        <a href="//github.com/sunjerry019" title="<?php echo $strings['github'][$lang] ?>"><i class="fab fa-github-alt"></i></a>
+                    <div id="header-right">
+                        <div id="languages" class="force-en-font">
+                            <a href="?hl=en">EN</a><a href="?hl=de">DE</a><a href="?hl=zh">ZH</a>
+                        </div>
+                        <div id="linkbuttons">
+                            <a href="//www.linkedin.com/in/sunjerry019/" title="<?php echo $strings['linkedin'][$lang] ?>"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="?expand" id="linkbtn_expand" title="<?php echo $strings['about_me'][$lang] ?>">
+                                <span><?php echo $strings["about_me"][$lang] ?></span>
+                                <i class="fas fa-chevron-down"></i>
+                            </a>
+                            <a href="//github.com/sunjerry019" title="<?php echo $strings['github'][$lang] ?>"><i class="fab fa-github-alt"></i></a>
+                        </div>
                     </div>
                 </div>
             </div>
