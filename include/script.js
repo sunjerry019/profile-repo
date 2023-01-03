@@ -64,7 +64,7 @@ var urlget =
     {
         var result = null, tmp = [];
         location.search
-            .substr(1)
+            .substring(1)
             .split("&")
             .forEach(function (item) {
               tmp = item.split("=");
@@ -109,7 +109,7 @@ var urlget =
     remove : function(parameterName)
     {
         var url = window.location.origin + window.location.pathname;
-        var currentGets = window.location.search.substr(1).split("&");
+        var currentGets = window.location.search.substring(1).split("&");
         var found = false;
 
         for(i = 0; i < currentGets.length; i++)
