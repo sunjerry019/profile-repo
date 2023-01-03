@@ -90,6 +90,18 @@
                     </div>
                 </div>
             </div>
+
+            <div id="scientific_works" class="bulk">
+                <h2><?php echo $strings["sciworks"][$lang] ?></h2>
+                <div class="content">
+                    <div class="sciwork">
+                        <div class="sciwork_name"><a href="//epub.ub.uni-muenchen.de/93330/" target="_blank"><?php echo $strings["BA_name"][$lang] ?></a></div>
+                        <div class="sciwork_type"><?php echo $strings["type_thesis_bach"][$lang] ?></div>
+                        <div class="sciwork_desc"><?php echo $strings["BA_desc"][$lang] ?></div>
+                    </div>
+                </div>
+            </div>
+
             <div id="contact" class="bulk">
                 <h2><?php echo $strings["contact"][$lang] ?></h2>
                 <div class="content">
