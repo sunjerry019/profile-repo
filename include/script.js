@@ -29,12 +29,17 @@ Array.prototype.clean = function(deleteValue) {
 
 var threshold_height = 510;
 var top_bottom_padding = 40;
+var threshold_width = 480;
+var left_right_padding = 40;
 function resizeHeader() {
     if (!expanded) {
         wh = $(window).height();
-        if (wh <= threshold_height) {
-            scale = (wh - top_bottom_padding)/(threshold_height - top_bottom_padding);
-            $("#header-wrap").css("transform", "scale(" + scale + ")");
+        ww = $(window).width();
+        if (wh <= threshold_height || ww <= threshold_width) {
+            scale_height = (wh - top_bottom_padding)/(threshold_height - top_bottom_padding);
+            scale_width  = (ww - left_right_padding)/(threshold_width - left_right_padding);
+
+            $("#header-wrap").css("transform", "scale(" + Math.min(scale_height, scale_width) + ")");
         }
     }
     else {
