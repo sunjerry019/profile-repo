@@ -95,7 +95,7 @@
                 <h2><?php echo $strings["sciworks"][$lang] ?></h2>
                 <div class="content">
                     <div class="sciwork">
-                        <div class="sciwork_name"><a href="//epub.ub.uni-muenchen.de/93330/" target="_blank"><?php echo $strings["BA_name"][$lang] ?></a></div>
+                        <div class="sciwork_name"><a href="//doi.org/10.5282/ubm/epub.93330" target="_blank"><?php echo $strings["BA_name"][$lang] ?></a></div>
                         <div class="sciwork_type"><?php echo $strings["type_thesis_bach"][$lang] ?><span class="sciwork_year">2022</span></div>
                         <div class="sciwork_desc"><?php echo $strings["BA_desc"][$lang] ?></div>
                     </div>
