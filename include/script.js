@@ -69,7 +69,7 @@ $(document).ready(function(){
         e.preventDefault();
         e.stopPropagation();
 
-        var lang = $(this).attr("href").substr(1);
+        var lang = $(this).attr("href").substring(1);
         window.location.href = urlget.update(lang);
     });
 
@@ -105,7 +105,7 @@ var urlget =
     update : function(newoption)
     {
         var url = window.location.origin + window.location.pathname;
-        var currentGets = window.location.search.substr(1).split("&");
+        var currentGets = window.location.search.substring(1).split("&");
         var opt = newoption.split("=");
         var found = false;
 
