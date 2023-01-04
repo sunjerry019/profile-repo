@@ -20,6 +20,8 @@ a[href^="mailto:"]:link, a[href^="mailto:"]:visited { color: #09c; text-decorati
 a[href^="mailto:"]:hover { color: #006080; }
 a[href^="mailto:"]:active { color: #06c; }
 
+.noscroll { height: 100%; overflow-y: hidden; }
+
 /* Header */
 #header
 {
