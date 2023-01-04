@@ -97,8 +97,10 @@
                     <div id="orcid">
                         <span>ORCID</span>
                         <span>Yudong&nbsp;Sun</span>
-                        <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
-                        <a href="//orcid.org/0000-0002-1444-7474">https://orcid.org/0000-0002-1444-7474</a>
+                        <div id="orcid-link">
+                            <img alt="ORCID logo" src="https://info.orcid.org/wp-content/uploads/2019/11/orcid_16x16.png" width="16" height="16" />
+                            <a href="//orcid.org/0000-0002-1444-7474"> https://orcid.org/0000-0002-1444-7474</a>
+                        </div>
                     </div>
                     <div class="sciwork">
                         <div class="sciwork_name"><a href="//doi.org/10.5282/ubm/epub.93330" target="_blank"><?php echo $strings["BA_name"][$lang] ?></a></div>
