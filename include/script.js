@@ -54,6 +54,7 @@ $(document).ready(function(){
     resizeHeader();
 
     $("#header .center").addClass("loaded");
+    $("body").addClass("noscroll");
 
     if(urlget.para("expand") == true) toggleHeader(true); // so that "0" will be evaluated as false
     else if(history.state && "expanded" in history.state && history.state["expanded"]) toggleHeader(true);
@@ -177,6 +178,7 @@ function toggleHeader(override)
             $("#header").height("auto");
             $("#header .center").removeClass("big");
             $("#header .center").addClass("small");
+            $("body").removeClass("noscroll");
         });
         expanded = true;
         // console.log("big to small");
@@ -196,6 +198,7 @@ function toggleHeader(override)
         // console.log(autoHeight);
 
         $("#header .center").removeClass("small");
+        $("body").addClass("noscroll");
         $("#footer").addClass("full");
         $("#header").height(curheight).height(autoHeight).delay(600).promise().done(function(e)
         {
