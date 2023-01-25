@@ -133,7 +133,7 @@
         <div id="footer">
             <div id="copyright">&copy <?php echo date("Y"); ?>, Yudong Sun</div>
             <div id="made_with">
-                <span id="f_runs_on">Runs on PHP, <a id="f_fa" href="//fontawesome.com/">fontawesome</a> and love</span>
+                <span id="f_runs_on"><a href="//github.com/sunjerry019/profile-repo/" target="_blank" id="gitsrc">/ git source /</a> Runs on PHP, <a id="f_fa" href="//fontawesome.com/">fontawesome</a> and love</span>
                 <span id="progress-pride-flag"></span>
             </div>
         </div>

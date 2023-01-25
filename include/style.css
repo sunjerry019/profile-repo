@@ -255,7 +255,8 @@ a[href^="mailto:"]:active { color: #06c; }
     { background-image: linear-gradient(#fff, #fff); background-size: 0% 1.5px; background-position: left bottom; background-repeat: no-repeat; padding-bottom: 2px; }
 #footer a:hover, #footer a:active { background-size: 100% 1.5px; }
 #footer a:active                  { background-image: linear-gradient(#ddd, #ddd); color: #ddd; }
-#footer div { display: flex; margin: 0px 10px; align-items: center;}
+#footer a#gitsrc:link, #footer a#gitsrc:visited { color: #999; }
+#footer div { display: flex; margin: 0px 10px; align-items: center; }
 #footer #progress-pride-flag {
     background-image: url(../assets/progress_pride.svg);
     background-repeat: no-repeat;
