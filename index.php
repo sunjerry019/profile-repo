@@ -102,10 +102,17 @@
                             <a href="//orcid.org/0000-0002-1444-7474"> https://orcid.org/0000-0002-1444-7474</a>
                         </div>
                     </div>
-                    <div class="sciwork">
-                        <div class="sciwork_name"><a href="//doi.org/10.5282/ubm/epub.93330" target="_blank"><?php echo $strings["BA_name"][$lang] ?></a></div>
-                        <div class="sciwork_type"><?php echo $strings["type_thesis_bach"][$lang] ?><span class="sciwork_year">2022</span></div>
-                        <div class="sciwork_desc"><?php echo $strings["BA_desc"][$lang] ?></div>
+                    <div class="works">
+                        <div class="sciwork">
+                            <div class="sciwork_name"><a href="//doi.org/10.5281/zenodo.7677329" target="_blank"><?php echo $strings["deRSE23_name"][$lang] ?></a></div>
+                            <div class="sciwork_type"><?php echo $strings["type_conf_talk"][$lang] ?><span class="sciwork_year">2023</span></div>
+                            <div class="sciwork_desc"><?php echo $strings["deRSE23_desc"][$lang] ?></div>
+                        </div>
+                        <div class="sciwork">
+                            <div class="sciwork_name"><a href="//doi.org/10.5282/ubm/epub.93330" target="_blank"><?php echo $strings["BA_name"][$lang] ?></a></div>
+                            <div class="sciwork_type"><?php echo $strings["type_thesis_bach"][$lang] ?><span class="sciwork_year">2022</span></div>
+                            <div class="sciwork_desc"><?php echo $strings["BA_desc"][$lang] ?></div>
+                        </div>
                     </div>
                 </div>
             </div>
