@@ -1,6 +1,8 @@
 /* Root/Colors */
 :root {
     --link-color: #006080;
+    --link-color-lighter: #00a8e1;
+    --link-color-lightest: #90e3ff;
     --link-active-color: #600080;
     --project-title: #800020;
     --header-bg-1: #f0899c;
@@ -8,6 +10,7 @@
     --header-bg-3: #d2e488;
     --header-bg-4: #dda9ce;
     --affil-bg: rgb(99, 99, 99);
+    --award-bg: rgb(88, 88, 88);
     --orcid: #A6CE39;
 }
 
@@ -193,6 +196,7 @@ a[href^="mailto:"]:active { color: #06c; }
 #scientific_works .content #orcid #orcid-link { display: flex; flex-flow: row; justify-content: flex-start; align-items: center; align-content: flex-start; } 
 #scientific_works .content #orcid #orcid-link img { margin-right: 0.3em; }
 /* #scientific_works .content #orcid a { font-family: "Roboto Mono", monospace; font-size: smaller; } */
+#scientific_works .content .works {display: flex; flex-flow: column; gap: 20px; }
 #scientific_works .content .sciwork { display: flex; flex-flow: column; }
 #scientific_works .content .sciwork .sciwork_type { font-size: smaller; margin-bottom: 10px;}
 #scientific_works .content .sciwork .sciwork_type .sciwork_year { margin-left: 10px; }
@@ -200,6 +204,12 @@ a[href^="mailto:"]:active { color: #06c; }
 #scientific_works .content .sciwork .sciwork_type .sciwork_year:after  {content: "]";}
 #scientific_works .content .sciwork .sciwork_desc { hyphens: auto; }
 #scientific_works .content .sciwork .sciwork_desc .affiliation { font-weight: bold; font-size: smaller; background-color: var(--affil-bg); color: white; display: inline-block; padding: 2px 5px; margin-right: 5px; }
+#scientific_works .content .sciwork .sciwork_desc .award { font-weight: bold; font-size: smaller; background-color: var(--award-bg); color: white; display: inline-block; padding: 2px 5px; margin-right: 5px; }
+#scientific_works .content .sciwork .sciwork_desc .affiliation a { color: white; background-image: None; padding-bottom: 0px; }
+#scientific_works .content .sciwork .sciwork_desc .affiliation a:hover { background-image: None; color: var(--link-color-lightest); }
+#scientific_works .content .sciwork .sciwork_desc .affiliation a:active { background-image: None; }
+/* #scientific_works .content .sciwork .sciwork_desc .affiliation:has(a):hover { transition: ease 0.15s; background-color: var(--link-color-lighter);} */
+
 
 /* Contact */
 #contact #socials { font-size: 2em; padding: 5px; }
