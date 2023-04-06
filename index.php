@@ -19,7 +19,7 @@
             echo "<style> body { font-family: 'Noto Sans SC Sliced', 'Yu Gothic', sans-serif; } </style>";
         } 
         ?>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
         <script src="include/script.js"></script>
     </head>
     <body>
