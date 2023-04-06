@@ -196,7 +196,7 @@ a[href^="mailto:"]:active { color: #06c; }
 #scientific_works .content #orcid #orcid-link { display: flex; flex-flow: row; justify-content: flex-start; align-items: center; align-content: flex-start; } 
 #scientific_works .content #orcid #orcid-link img { margin-right: 0.3em; }
 /* #scientific_works .content #orcid a { font-family: "Roboto Mono", monospace; font-size: smaller; } */
-#scientific_works .content .works {display: flex; flex-flow: column; gap: 20px; }
+#scientific_works .content .works {display: flex; flex-flow: column; gap: 25px; }
 #scientific_works .content .sciwork { display: flex; flex-flow: column; }
 #scientific_works .content .sciwork .sciwork_type { font-size: smaller; margin-bottom: 10px;}
 #scientific_works .content .sciwork .sciwork_type .sciwork_year { margin-left: 10px; }
