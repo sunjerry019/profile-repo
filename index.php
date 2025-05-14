@@ -61,6 +61,7 @@
         <div id="body">
             <div id="welcome">
                 <h1><?php echo $strings["welcome_header"][$lang] ?></h1>
+                <p id="welcome_title"><?php echo $strings["welcome_title"][$lang] ?></p>
                 <p><?php echo $strings["welcome"][$lang] ?></p>
             </div>
             <div id="projects" class="bulk">

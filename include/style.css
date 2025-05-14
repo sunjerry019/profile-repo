@@ -173,6 +173,10 @@ a[href^="mailto:"]:active { color: #06c; }
 #body a:hover  { background-size: 100% 1.5px; }
 #body a:active { background-size: 100% 1.5px; background-image: linear-gradient(var(--link-active-color), var(--link-active-color)); color: var(--link-active-color); }
 
+/* Welcome */
+#welcome_title { font-style: italic; padding-left: 10px; border-left: 3px solid #e51352; }
+#welcome_title b { font-weight: 800; color: #e51352; }
+
 /* Projects */
 #body #projects .content                        { display: flex; flex-flow: column wrap; }
 #body #projects .content .project               { 
