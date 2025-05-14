@@ -220,6 +220,8 @@ a[href^="mailto:"]:active { color: #06c; }
 #contact #socials a:link .fa-facebook-square, #contact #socials a:visited .fa-facebook-square { color: #046FE5; }
 #contact #socials a:link .fa-github-square, #contact #socials a:visited .fa-github-square { color: #0F0E0F; }
 
+#institute_website { display: inline-block; background-color: #ffdd9d; padding: 0px 5px; font-weight: bold; }
+#contact .short-sep { width: 100px; height: 0px; border-top: 2px dashed #999; margin: 10px 0px; display: block; }
 
 /* Themeing */
 #body .bulk h2  { 

@@ -120,6 +120,8 @@
             <div id="contact" class="bulk">
                 <h2><?php echo $strings["contact"][$lang] ?></h2>
                 <div class="content">
+                    <a id='institute_website' href="https://www.theorie.physik.uni-muenchen.de/lsschollwoeck/members/master_students/sun/index.html"><?php echo $strings["institute_website"][$lang] ?></a> <?php echo $strings["institute"][$lang] ?>
+                    <div class="short-sep"></div>
                     <table>
                         <tr>
                             <td><?php echo $strings["email"][$lang] ?></td>
