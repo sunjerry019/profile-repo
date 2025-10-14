@@ -105,6 +105,11 @@
                     </div>
                     <div class="works">
                         <div class="sciwork">
+                            <div class="sciwork_name"><a href="//doi.org/10.5282/ubm/epub.127284" target="_blank"><?php echo $strings["MA_name"][$lang] ?></a></div>
+                            <div class="sciwork_type"><?php echo $strings["type_thesis_master"][$lang] ?><span class="sciwork_year">2025</span></div>
+                            <div class="sciwork_desc"><?php echo $strings["MA_desc"][$lang] ?></div>
+                        </div>
+                        <div class="sciwork">
                             <div class="sciwork_name"><a href="//doi.org/10.5281/zenodo.7677329" target="_blank"><?php echo $strings["deRSE23_name"][$lang] ?></a></div>
                             <div class="sciwork_type"><?php echo $strings["type_conf_talk"][$lang] ?><span class="sciwork_year">2023</span></div>
                             <div class="sciwork_desc"><?php echo $strings["deRSE23_desc"][$lang] ?></div>
