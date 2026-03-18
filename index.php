@@ -78,6 +78,11 @@
                     </div>
                     <div class="works">
                         <div class="sciwork">
+                            <div class="sciwork_name"><a href="//doi.org/10.14279/eceasst.v85.2628" target="_blank"><?php echo $strings["wumspaper_name"][$lang] ?></a></div>
+                            <div class="sciwork_type"><?php echo $strings["type_conf_proc"][$lang] ?><span class="sciwork_year">2025</span></div>
+                            <div class="sciwork_desc"><?php echo $strings["wumspaper_desc"][$lang] ?></div>
+                        </div>
+                        <div class="sciwork">
                             <div class="sciwork_name"><a href="//doi.org/10.5282/ubm/epub.127284" target="_blank"><?php echo $strings["MA_name"][$lang] ?></a></div>
                             <div class="sciwork_type"><?php echo $strings["type_thesis_master"][$lang] ?><span class="sciwork_year">2025</span></div>
                             <div class="sciwork_desc"><?php echo $strings["MA_desc"][$lang] ?></div>
