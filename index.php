@@ -132,7 +132,7 @@
                     <table>
                         <tr>
                             <td><?php echo $strings["email"][$lang] ?></td>
-                            <td>yudong.sun [at] physik.uni-muenchen.de</td>
+                            <td>yudong.sun [at] tum.de</td>
                         </tr>
                     </table>
                     <div id="socials">
