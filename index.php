@@ -65,34 +65,6 @@
                 <p id="welcome_title"><?php echo $strings["welcome_title"][$lang] ?></p>
                 <p><?php echo $strings["welcome"][$lang] ?></p>
             </div>
-            <div id="projects" class="bulk">
-                <h2><?php echo $strings["projects"][$lang] ?></h2>
-                <div class="content">
-                    <div class="project">
-                        <div class="project_name">nanosquared</div>
-                        <div class="project_link"><a href="//github.com/sunjerry019/nanosquared">github.com/nanosquared</a></div>
-                        <div class="project_desc"><?php echo $strings["nanosquared"][$lang] ?></div>
-                    </div>
-                    <div class="project">
-                        <div class="project_name">photonLauncher</div>
-                        <div class="project_link"><a href="//github.com/sunjerry019/photonLauncher">github.com/photonLauncher</a></div>
-                        <div class="project_desc"><?php echo $strings["photonLauncher"][$lang] ?>
-                            <p>Poster: <i>"<a href='/attachments/pst-2016-Lor, Choong, Sun, Lee.pdf' title="Poster: Measuring Temporal Coherence of Light from a Mercury Vapour Lamp, 2016">Measuring Temporal Coherence of Light from a Mercury Vapour Lamp</a>"</i> (Institute of Physics Singapore Meeting, 2016)</p>
-                        </div>
-                    </div>
-                    <div class="project">
-                        <div class="project_name">onecorpsec</div>
-                        <div class="project_link"><a href="//github.com/sunjerry019/onecorpsec">github.com/onecorpsec</a></div>
-                        <div class="project_desc"><?php echo $strings["onecorpsec"][$lang] ?></div>
-                    </div>
-                    <div class="project">
-                        <div class="project_name">LatexBot</div>
-                        <div class="project_link"><a href="//github.com/sunjerry019/LatexBot">github.com/LatexBot</a></div>
-                        <div class="project_desc"><?php echo $strings["LatexBot"][$lang] ?></div>
-                    </div>
-                </div>
-            </div>
-
             <div id="scientific_works" class="bulk">
                 <h2><?php echo $strings["sciworks"][$lang] ?></h2>
                 <div class="content">
@@ -120,6 +92,34 @@
                             <div class="sciwork_type"><?php echo $strings["type_thesis_bach"][$lang] ?><span class="sciwork_year">2022</span></div>
                             <div class="sciwork_desc"><?php echo $strings["BA_desc"][$lang] ?></div>
                         </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="projects" class="bulk">
+                <h2><?php echo $strings["projects"][$lang] ?></h2>
+                <div class="content">
+                    <div class="project">
+                        <div class="project_name">nanosquared</div>
+                        <div class="project_link"><a href="//github.com/sunjerry019/nanosquared">github.com/nanosquared</a></div>
+                        <div class="project_desc"><?php echo $strings["nanosquared"][$lang] ?></div>
+                    </div>
+                    <div class="project">
+                        <div class="project_name">photonLauncher</div>
+                        <div class="project_link"><a href="//github.com/sunjerry019/photonLauncher">github.com/photonLauncher</a></div>
+                        <div class="project_desc"><?php echo $strings["photonLauncher"][$lang] ?>
+                            <p>Poster: <i>"<a href='/attachments/pst-2016-Lor, Choong, Sun, Lee.pdf' title="Poster: Measuring Temporal Coherence of Light from a Mercury Vapour Lamp, 2016">Measuring Temporal Coherence of Light from a Mercury Vapour Lamp</a>"</i> (Institute of Physics Singapore Meeting, 2016)</p>
+                        </div>
+                    </div>
+                    <div class="project">
+                        <div class="project_name">onecorpsec</div>
+                        <div class="project_link"><a href="//github.com/sunjerry019/onecorpsec">github.com/onecorpsec</a></div>
+                        <div class="project_desc"><?php echo $strings["onecorpsec"][$lang] ?></div>
+                    </div>
+                    <div class="project">
+                        <div class="project_name">LatexBot</div>
+                        <div class="project_link"><a href="//github.com/sunjerry019/LatexBot">github.com/LatexBot</a></div>
+                        <div class="project_desc"><?php echo $strings["LatexBot"][$lang] ?></div>
                     </div>
                 </div>
             </div>
