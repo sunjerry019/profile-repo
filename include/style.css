@@ -64,6 +64,7 @@ a[href^="mailto:"]:active { color: #06c; }
 
 /* SMALL HEADER */
 #header .center.small                               { opacity: 1; background-color: rgba(0,0,0,0.7); -webkit-transition: all 500ms ease; transition: all 500ms ease; }
+#header .center.swapping                            { opacity: 0; -webkit-transition: opacity 150ms ease; transition: opacity 150ms ease; }
 #header .center.small #linkbtn_expand span          { display: none; }
 #header .center.small #profile-photo .photoflank    { display: none; }
 #header .center.small #name_expertise               { align-items: flex-start; justify-content: flex-start; text-align: left; padding-left: 20px; }
@@ -113,6 +114,7 @@ a[href^="mailto:"]:active { color: #06c; }
 #header #profile-photo img  { -webkit-transition: all 500ms ease; transition: all 500ms ease; height: 5em; width: 5em; border-radius: 50%; }
 
 #header.full { height: 100%; position: fixed; top: 0; }
+#header.full.in-flow { position: relative; }
     #header .center.big { flex-direction: column; }
     #header.full span#name              { font-size: 3em; padding: 10px 0px;}
     #header.full span#expertise         { font-weight: 300; font-size: 1.5em; }
