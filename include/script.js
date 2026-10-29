@@ -157,7 +157,7 @@ var urlget =
 }
 
 var toggling = false;
-var swap_fade_ms = 1000; // keep in sync with `#header .center.swapping` in style.css
+var swap_fade_ms = 500; // keep in sync with `#header .center.swapping` in style.css
 
 // Runs `done` once the header's height transition has finished (or after a fallback timeout)
 function afterHeightTransition($el, done)
