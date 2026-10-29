@@ -200,6 +200,9 @@ function toggleHeader(override)
         var curheight = $header.height();
         var autoHeight;
 
+        // Children have their own transitions; without this the measurement below would see the old layout
+        $header.addClass("notransition");
+
         if (collapsing)
         {
             // Measure the final (small) layout, including the scrollbar that appears
@@ -222,6 +225,7 @@ function toggleHeader(override)
         resizeHeader();
         $header.height(curheight);
         $header[0].offsetHeight; // flush so that the height change below is transitioned
+        $header.removeClass("notransition");
         $center.removeClass("swapping");
         $header.height(autoHeight);
 
