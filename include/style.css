@@ -64,7 +64,7 @@ a[href^="mailto:"]:active { color: #06c; }
 
 /* SMALL HEADER */
 #header .center.small                               { opacity: 1; background-color: rgba(0,0,0,0.7); -webkit-transition: all 500ms ease; transition: all 500ms ease; }
-#header .center.swapping                            { opacity: 0; -webkit-transition: opacity 200ms ease; transition: opacity 200ms ease; }
+#header .center.swapping                            { opacity: 0; -webkit-transition: opacity 500ms ease; transition: opacity 500ms ease; }
 #header .center.small #linkbtn_expand span          { display: none; }
 #header .center.small #profile-photo .photoflank    { display: none; }
 #header .center.small #name_expertise               { align-items: flex-start; justify-content: flex-start; text-align: left; padding-left: 20px; }
