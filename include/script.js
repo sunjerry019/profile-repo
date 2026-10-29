@@ -156,62 +156,105 @@ var urlget =
     }
 }
 
+var toggling = false;
+var swap_ms = 250; // half of the header's 500ms height transition; keep in sync with `.fading` in style.css
+
+// Runs `done` once the header's height transition has finished (or after a fallback timeout)
+function afterHeightTransition($el, done)
+{
+    var finished = false;
+    var timer = setTimeout(finish, 700);
+
+    function finish()
+    {
+        if (finished) return;
+        finished = true;
+        clearTimeout(timer);
+        $el.off("transitionend.toggleHeader");
+        done();
+    }
+
+    $el.on("transitionend.toggleHeader", function(e)
+    {
+        if (e.target === $el[0] && e.originalEvent.propertyName === "height") finish();
+    });
+}
+
+// The big <-> small layouts differ in things that cannot be transitioned (display, flex-direction,
+// font-size via .full). So the content cross-fades *while* the height animates: it fades out during the
+// first half, the layout is switched at the midpoint while invisible, and it fades back in during the second half.
 function toggleHeader(override)
 {
-    if(!expanded || override)
+    if (toggling) return;
+    toggling = true;
+
+    var $header = $("#header");
+    var $center = $("#header .center");
+    var $others = $("body, #footer");
+    var collapsing = !expanded || override;
+    expanded = collapsing;
+
+    // Switch everything that differs between the two states
+    function applyLayout()
     {
-        curheight = $("#header").height();
-        // console.log(curheight);
-        $("#header .center").removeClass("big");
-        $("#header .center").addClass("small");
-        autoHeight = $("#header").removeClass("full").css('height', 'auto').height();
-        $("#header .center").removeClass("small");
-        $("#header .center").addClass("big");
-
-        // console.log(autoHeight);
-
-        $("#header .center").removeClass("loaded");
-        $("#footer").removeClass("full");
-        $("#header").height(curheight).height(autoHeight).delay(600).promise().done(function(e)
+        if (collapsing)
         {
-            // console.log("height changed");
-            $("#header").height("auto");
-            $("#header .center").removeClass("big");
-            $("#header .center").addClass("small");
+            $header.removeClass("full in-flow");
+            $center.removeClass("big loaded").addClass("small");
             $("body").removeClass("noscroll");
-        });
-        expanded = true;
-        // console.log("big to small");
-        history.pushState({ expanded: true }, "Expand About Me", urlget.update("expand"));
-    }
-    else
-    {
-        curheight = $("#header").height();
-        // console.log(curheight);
-        $("#header .center").removeClass("small");
-        $("#header .center").addClass("big");
-        autoHeight = $("#header").addClass("full").height("").height();
-        $("#header").removeClass("full");
-        $("#header .center").removeClass("big");
-        $("#header .center").addClass("small");
-
-        // console.log(autoHeight);
-
-        $("#header .center").removeClass("small");
-        $("body").addClass("noscroll");
-        $("#footer").addClass("full");
-        $("#header").height(curheight).height(autoHeight).delay(600).promise().done(function(e)
+            $("#footer").removeClass("full");
+        }
+        else
         {
-            // console.log("height changed");
-            $("#header").addClass("full").height("");
-            $("#header .center").addClass("loaded");
-            $("#header .center").addClass("big");
-        });
-        expanded = false;
-        // console.log("small to big");
-        history.pushState({ expanded: false }, "De-expand About Me", urlget.remove("expand"));
+            $header.addClass("full in-flow"); // stay in the page flow until the transition ends
+            $center.removeClass("small").addClass("big loaded");
+            $("body").addClass("noscroll");
+            $("#footer").addClass("full");
+        }
     }
-    resizeHeader();
+
+    // Measure the final layout (including scrollbar changes), then put everything back
+    var curheight = $header.height();
+    var saved = $header.add($center).add($others).map(function(){ return [[$(this).attr("class"), $(this).attr("style")]]; }).get();
+    $header.addClass("measuring");
+    applyLayout();
+    $header.removeClass("in-flow").css("height", collapsing ? "auto" : "");
+    var autoHeight = $header.height();
+    $header.add($center).add($others).each(function(i)
+    {
+        $(this).attr("class", saved[i][0]);
+        if (saved[i][1] === undefined) $(this).removeAttr("style"); else $(this).attr("style", saved[i][1]);
+    });
+    $header.addClass("measuring"); // restored classes replaced it
+    if (collapsing) $header.addClass("in-flow"); // leave the fixed full screen state without moving the body
+    $header.height(curheight);
+    $header[0].offsetHeight;
+    $header.removeClass("measuring");
+
+    // Start both animations together
+    $center.addClass("fading swapping");
+    $header.height(autoHeight);
+
+    setTimeout(function()
+    {
+        $header.addClass("notransition");
+        applyLayout();
+        resizeHeader();
+        $header[0].offsetHeight;
+        $header.removeClass("notransition");
+        $center.removeClass("swapping");
+    }, swap_ms);
+
+    afterHeightTransition($header, function()
+    {
+        $center.removeClass("fading");
+        if (collapsing) $header.height("auto");
+        else $header.removeClass("in-flow").height("");
+        toggling = false;
+    });
+
+    if (collapsing) history.pushState({ expanded: true }, "Expand About Me", urlget.update("expand"));
+    else history.pushState({ expanded: false }, "De-expand About Me", urlget.remove("expand"));
 }
 
 /*var el = $('#header'),
